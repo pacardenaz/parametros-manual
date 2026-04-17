@@ -781,6 +781,25 @@ Sección: Recomendamos leer muy detenidamente cada capítulo y al tiempo ir prac
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 
 Documento: Configuración de Hoteles
+Sección: Lista completa de parámetros del módulo de hoteles
+Contenido: Estos son todos los parámetros del sistema para configurar el módulo de búsqueda y reserva de hoteles en KontrolTravel OBT. Se configuran en: Configuración General → 0. Administrador IF → Entidad Cliente → Perfilar Cliente → Parámetros de configuración.
+Parámetro | Descripción | URL
+MOSTRARLISTABROKERSBUSQHOTELES | Mostrar la lista de proveedores hoteleros disponibles en la búsqueda. | https://pacardenaz.github.io/parametros-manual/params/162_Mostrar_brokers_hoteles.html
+B2C2_CodigoMarkupHoteles | Selecciona el valor del Mark Up que se cobrará en los hoteles; aplica para todos los proveedores habilitados excepto Expedia. | https://pacardenaz.github.io/parametros-manual/params/163_Código_Markup_Hoteles.html
+MONEDAHOTELESNACIONALES | Define la moneda en que se desea que salgan los resultados de hoteles nacionales. | https://pacardenaz.github.io/parametros-manual/params/164_Moneda_hoteles_nacionales.html
+MONEDAHOTELESINTERNACIONALES | Define la moneda para hoteles internacionales. | https://pacardenaz.github.io/parametros-manual/params/165_Moneda_hoteles_internacionales.html
+CONVERTIRMONEDAHOTELESNACIONALES | Cambiar moneda de hoteles a la moneda local. | https://pacardenaz.github.io/parametros-manual/params/167_Cambiar_Moneda_de_Hoteles_a_la_moneda_Local.html
+MOSTRARHOTELBROKERRESULTADOS | Mostrar el broker en los resultados de hoteles. | https://pacardenaz.github.io/parametros-manual/params/168_Mostrar_broker_en_los_resultados_de_hoteles.html
+B2C2_OffsetFechaHoteles | Días a restringir en la búsqueda de hoteles (fecha mínima de check-in). | https://pacardenaz.github.io/parametros-manual/params/169_Días_a_restringir_búsqueda_de_hoteles.html
+CANTIDADHOTELESPAGINA | Configura la cantidad de hoteles a visualizar por página en los resultados. | https://pacardenaz.github.io/parametros-manual/params/170_Cantidad_de_hoteles_por_pagina.html
+USEOLDHOTELDESIGN | Tipo de vista para la plantilla de hoteles: diseño básico o nuevo diseño. | https://pacardenaz.github.io/parametros-manual/params/171_Tipo_Layout_para_Hotel.html
+HOTELSGDSDEFAULT | Marca la búsqueda GDS de hoteles como preferida (ej. hoteles Amadeus como prioridad). | https://pacardenaz.github.io/parametros-manual/params/172_Hoteles_Amadeus_como_prioridad.html
+OCULTARMARKUPHOTELESRETRIEVE | Ocultar el valor del Markup en la pantalla de Retrieve de Hoteles. | https://pacardenaz.github.io/parametros-manual/params/184_Ocultar_Markup_en_Retrieve_de_Hoteles.html
+MOSTRARMARKUPHOTELES | Mostrar lista desplegable para que el usuario configure un mark up adicional en la búsqueda de hoteles. | https://pacardenaz.github.io/parametros-manual/params/198_Mostrar_lista_desplegable_para_configurar_el_mark_up_adicional.html
+MARKUPMINIMOHOTEL | Define el valor de porcentaje mínimo que se podrá elegir en la lista de markup adicional de hoteles. Si se configura 5, la lista va de 5 a 25. | https://pacardenaz.github.io/parametros-manual/params/199_Valor_minimo_de_Mark_up_en_lista_de_mark_up_adicional.html
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
 Sección: Generalidades sobre configuración de hoteles.
 Contenido: Los hoteles de proveedores configurados aplica de forma única y exclusiva para la agencia para la cual se configure. La información configurada debe corresponder a la determinado por la agencia para el proveedor. Se debe configurar la información para las diferentes que quieren que apliquen. La información que se muestre en la plataforma (hoteles, tarifas, acomodaciones, alimentación, etc.) es la que envié el proveedor. Es posible configurar un markup para los diferentes proveedores de hoteles; el cual debe ser definido por la agencia. Se debe configurar (por Ideas Fractal) los códigos con los cuales cada proveedor de hoteles identifica los diferentes destinos.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html

@@ -9,7 +9,8 @@ DOCUMENTACIÓN TÉCNICA DEL SISTEMA OBT
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — De Jeeve
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — De Jeeve
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -21,7 +22,8 @@ Pereira, Colombia
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -49,7 +51,8 @@ Uso de tarjetas virtuales para pagos de reservas …………………………�
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -59,7 +62,8 @@ Control de Versiones
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Fecha Autor Descripcion Revisado Por Versión
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Fecha Autor Descripcion Revisado Por Versión
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -69,7 +73,8 @@ Sanchez configuración
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -99,7 +104,8 @@ funcionalidades que se describen en este instructivo.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -123,7 +129,8 @@ administración y cancelación de tarjetas virtuales.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -157,7 +164,8 @@ físicas o procesos.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -221,7 +229,8 @@ plataforma Jeeves.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -273,7 +282,8 @@ sido configurado correctamente en el servidor.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -301,7 +311,8 @@ portal como tarjetas de crédito convencionales.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -355,7 +366,8 @@ Corresponde a la entidad o agencia asociada a la tarjeta de crédito virtual den
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -405,7 +417,8 @@ Una vez seleccionada la tarjeta deseada y al hacer clic en el botón "Ejecutar",
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — 1. Enviar la solicitud de eliminación de la tarjeta a la plataforma Jeeves.
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — 1. Enviar la solicitud de eliminación de la tarjeta a la plataforma Jeeves.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -415,7 +428,8 @@ De esta forma se garantiza que la tarjeta no pueda volver a ser utilizada ni en 
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — Ideas Fractal
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -447,7 +461,8 @@ Para los procesos de emisión automática, es necesario configurar el siguiente 
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuracion Jeeves — • Formapagoclientecorporativo = V
+Documento: Configuracion Jeeves
+Tema: Jeeves — Tarjetas de Crédito Virtuales Corporativas — Configuración — • Formapagoclientecorporativo = V
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -467,7 +482,8 @@ pago para completar la transacción de la reserva, garantizando un proceso segur
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Introducción
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Introducción
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -475,7 +491,8 @@ Flujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, Colomb
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Introducción
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Introducción
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -495,7 +512,8 @@ Al dominar los conceptos y funcionalidades aquí detallados, los usuarios podrá
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Fundamentos
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Fundamentos
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -569,7 +587,8 @@ Políticas Detalladas: Este viajero puede estar asociado a varias políticas esp
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Funcionamiento del Flujo de Aprobación
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Funcionamiento del Flujo de Aprobación
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -677,7 +696,8 @@ Autoaprobación Incondicional: La solicitud queda siempre aprobada, independient
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Políticas de viaje
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Políticas de viaje
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -791,7 +811,8 @@ Se define mediante los siguientes campos:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Aprobación Masiva
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Aprobación Masiva
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -827,7 +848,8 @@ En el panel de reservas, se podrá verificar el estado de flujo corporativo como
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Aprobador en licencia/Vacaciones
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Aprobador en licencia/Vacaciones
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -847,7 +869,8 @@ La plataforma permite a los usuarios administradores forzar la ejecución de los
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Aprobadores por centro de costo y pasajeros
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Aprobadores por centro de costo y pasajeros
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -861,7 +884,8 @@ Descripción de los campos de configuración
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Validación avanzada de políticas vía JSON
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Validación avanzada de políticas vía JSON
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -913,7 +937,8 @@ Si el nombre de la política se escribe de forma incorrecta (ej. TipoclaseviajeV
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Notificaciones Automáticas de Reservas Aprobadas (Robot de Auditoría)
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Notificaciones Automáticas de Reservas Aprobadas (Robot de Auditoría)
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -929,7 +954,8 @@ El correo electrónico incluye el listado de todas las reservas cuyo estado camb
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: FlujoCorporativoKT — Preguntas frecuentes
+Documento: FlujoCorporativoKT
+Tema: Flujo Corporativo KontrolTravel — Aprobaciones, Políticas de Viaje, Centros de Costo — Preguntas frecuentes
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -987,7 +1013,8 @@ R/Prohibir o advertir sobre viajes a ubicaciones geográficas por razones de seg
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1003,7 +1030,8 @@ Pereira, Colombia
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1025,7 +1053,8 @@ Preguntas Frecuentes ...........................................................
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1035,7 +1064,8 @@ Control de versiones
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Fecha Autor Descripcion Revisado Por Versión
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Fecha Autor Descripcion Revisado Por Versión
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1043,7 +1073,8 @@ URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manua
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1073,7 +1104,8 @@ qué criterios se muestran las opciones más económicas.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1081,7 +1113,8 @@ Soluciones de viajes
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 1. Principio de comparación justa
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 1. Principio de comparación justa
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1103,7 +1136,8 @@ comparan únicamente tarifas con condiciones similares.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 2. Familias tarifarias y su variabilidad
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 2. Familias tarifarias y su variabilidad
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1129,7 +1163,8 @@ familias, alineándolos según criterios comunes como:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 3. Enfoque en la experiencia del usuario
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 3. Enfoque en la experiencia del usuario
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1141,7 +1176,8 @@ El módulo está diseñado para mostrar solo la información necesaria en cada e
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1163,7 +1199,8 @@ Esto permite al usuario:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 4. Flexibilidad mediante configuración
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 4. Flexibilidad mediante configuración
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1185,7 +1222,8 @@ Gracias a esta flexibilidad, el módulo puede adaptarse a:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 5. Alcance funcional
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 5. Alcance funcional
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1199,7 +1237,8 @@ En vuelos internacionales:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1211,7 +1250,8 @@ familias tarifarias.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 6. Beneficios clave
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 6. Beneficios clave
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1225,7 +1265,8 @@ URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manua
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1249,7 +1290,8 @@ selección directa.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1271,7 +1313,8 @@ Activa la ventana simple (funcionamiento anterior). Muestra de
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — S
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — S
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1281,7 +1324,8 @@ Activa la nueva ventana avanzada con más información y opción de
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — C
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — C
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1307,7 +1351,8 @@ Valor Comportamiento
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — 2 Muestra los dos vuelos más económicos.
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — 2 Muestra los dos vuelos más económicos.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1315,7 +1360,8 @@ N Muestra hasta N opciones económicas.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1367,7 +1413,8 @@ Familia no pertenece a ningún Se compara contra el vuelo más
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1381,7 +1428,8 @@ Formato incorrecto Formato incorrecto
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Standard
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Standard
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1391,7 +1439,8 @@ Fuente Aerolinea Familia
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1399,7 +1448,8 @@ Soluciones de viajes
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Basic Zo
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Basic Zo
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1407,7 +1457,8 @@ Amadeus STANDARD ED
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1415,7 +1466,8 @@ Soluciones de viajes
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Basico Ts,Lr
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Basico Ts,Lr
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1423,7 +1475,8 @@ JetSmart ESTANDAR G1
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Premium Economy Premium Economy
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Premium Economy Premium Economy
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1431,7 +1484,8 @@ Latam STANDARD STANDARD
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Light Light
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Light Light
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1439,7 +1493,8 @@ Amadeus CLASSIC CLASSIC
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1489,7 +1544,8 @@ Define el rango horario en horas para la búsqueda de vuelos más
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1497,7 +1553,8 @@ Soluciones de viajes
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — • Toleranciahoraspreciobajointer = 4
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — • Toleranciahoraspreciobajointer = 4
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1539,7 +1596,8 @@ Parámetro: FORZARTOLERANCIAHORASPRECIOBAJOETICKET
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1565,7 +1623,8 @@ Aplica la tolerancia horaria configurada a todas las secciones del e-
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — S
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — S
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1573,7 +1632,8 @@ N La tolerancia horaria solo se aplica durante la selección inicial del vuelo.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — • Forzartoleranciahoraspreciobajoeticket = S
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — • Forzartoleranciahoraspreciobajoeticket = S
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1595,7 +1655,8 @@ Con familias configuradas
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1623,7 +1684,8 @@ Activación: VERIFICASVUELOSMASECONOMICOS = S
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1643,7 +1705,8 @@ o Valor ahorrado
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1657,7 +1720,8 @@ o Familia tarifaria
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — (Combinacionfamiliesventanaprecioseconomicos)
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — (Combinacionfamiliesventanaprecioseconomicos)
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1671,7 +1735,8 @@ en las siguientes imágenes:
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1695,7 +1760,8 @@ No. La funcionalidad puede activarse o desactivarse mediante el parámetro
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Verificasvuelosmaseconomicos.
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Verificasvuelosmaseconomicos.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1717,7 +1783,8 @@ horarios diferentes según el tipo de itinerario.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual Ventana de Precios (1) (1) — Ideas Fractal
+Documento: Manual Ventana de Precios (1) (1)
+Tema: Ventana de Precios Más Económicos — Vuelos — Comparación de Tarifas — Ideas Fractal
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1735,7 +1802,8 @@ configurado en S.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual de UDIDS (1) — Introducción
+Documento: Manual de UDIDS (1)
+Tema: UDIDs — Campos Gerenciales — Información Adicional de Reserva — Introducción
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1743,7 +1811,8 @@ Manual de UdidsDocumento guíaIdeas Fractal SASPereira, ColombiaManual de UdidsD
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual de UDIDS (1) — Introducción
+Documento: Manual de UDIDS (1)
+Tema: UDIDs — Campos Gerenciales — Información Adicional de Reserva — Introducción
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -1781,7 +1850,8 @@ Facilitar el análisis posterior mediante reportes con campos gerenciales estruc
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Manual de UDIDS (1) — Fundamentos
+Documento: Manual de UDIDS (1)
+Tema: UDIDs — Campos Gerenciales — Información Adicional de Reserva — Fundamentos
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2709,7 +2779,8 @@ Fallos en procesos posteriores (facturación, auditoría).
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: REEMISIÓN RESERVAS — Introducción.
+Documento: REEMISIÓN RESERVAS
+Tema: Reemisión de Reservas — Cambio de Itinerario — Modificación de Vuelos — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/05_reemisión-reservas.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2831,7 +2902,8 @@ Es importante aclarar que, al configurarse este parámetro a nivel de entidad, l
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración del markup por el gestor — Introducción.
+Documento: Configuración del markup por el gestor
+Tema: Markup — Tarifación — Comisiones — Configuración de Precios Hoteles — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2843,7 +2915,8 @@ Recomendamos leer muy detenidamente cada capítulo y al tiempo ir practicando lo
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración del markup por el gestor — Generalidades de los Markup de hoteles.
+Documento: Configuración del markup por el gestor
+Tema: Markup — Tarifación — Comisiones — Configuración de Precios Hoteles — Generalidades de los Markup de hoteles.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2871,7 +2944,8 @@ Los grupos creados se recomiendan se hagan en la entidad principal.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración del markup por el gestor — Ingreso al sistema.
+Documento: Configuración del markup por el gestor
+Tema: Markup — Tarifación — Comisiones — Configuración de Precios Hoteles — Ingreso al sistema.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2891,7 +2965,8 @@ Cuando se ingrese al sistema el usuario podrá ver en la parte izquierda de la p
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración del markup por el gestor — Formulario de configuración o creación de grupo FEE hoteles.
+Documento: Configuración del markup por el gestor
+Tema: Markup — Tarifación — Comisiones — Configuración de Precios Hoteles — Formulario de configuración o creación de grupo FEE hoteles.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -2945,7 +3020,8 @@ Sin importar como se va aplicar se debe configurar la regla General además cual
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración del markup por el gestor — Configuración de valores grupo FEE hoteles regla general.
+Documento: Configuración del markup por el gestor
+Tema: Markup — Tarifación — Comisiones — Configuración de Precios Hoteles — Configuración de valores grupo FEE hoteles regla general.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3149,7 +3225,8 @@ El sistema en una barra verde informara que se guardó exitosamente.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de Hoteles — Introducción.
+Documento: Configuración de Hoteles
+Tema: Módulo de Hoteles — Configuración — Disponibilidad — Búsqueda de Hoteles — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3159,7 +3236,8 @@ Como toda herramienta tecnológica el resultado satisfactorio de la adopción de
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de Hoteles — Generalidades sobre configuración de hoteles.
+Documento: Configuración de Hoteles
+Tema: Módulo de Hoteles — Configuración — Disponibilidad — Búsqueda de Hoteles — Generalidades sobre configuración de hoteles.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3183,7 +3261,8 @@ El sistema permite configurar varios proveedores de hoteles en una misma agencia
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de Hoteles — Ingreso al sistema.
+Documento: Configuración de Hoteles
+Tema: Módulo de Hoteles — Configuración — Disponibilidad — Búsqueda de Hoteles — Ingreso al sistema.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3211,7 +3290,8 @@ Al hacer login se ingresa a la OBT; y se debe hacer clic sobre el botón que dic
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de Hoteles — Menú principal.
+Documento: Configuración de Hoteles
+Tema: Módulo de Hoteles — Configuración — Disponibilidad — Búsqueda de Hoteles — Menú principal.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3219,7 +3299,8 @@ Cuando se ingrese al sistema el usuario podrá ver en la parte izquierda de la p
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de Hoteles — Parámetros de configuración de motor de búsqueda de hoteles.
+Documento: Configuración de Hoteles
+Tema: Módulo de Hoteles — Configuración — Disponibilidad — Búsqueda de Hoteles — Parámetros de configuración de motor de búsqueda de hoteles.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3643,7 +3724,8 @@ Cuando un usuario de la plataforma realiza una configuración debe informar a Id
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Introducción.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3653,7 +3735,8 @@ Como toda herramienta tecnológica el resultado satisfactorio de la adopción de
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Generalidades sobre las políticas por destino.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Generalidades sobre las políticas por destino.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3685,7 +3768,8 @@ Actualmente Ideas Fractal tiene integraciones con las siguientes tarjetas de asi
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Ingreso al sistema.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Ingreso al sistema.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3701,7 +3785,8 @@ Al hacer login se ingresa a la OBT; y se debe hacer clic sobre el botón que dic
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Menú principal.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Menú principal.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3709,7 +3794,8 @@ Una vez ingresados al Gestor por la OBT, se hace clic en el menú 0-administrado
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Parámetros de configuración de motor de búsqueda de tarjetas de asistencia.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Parámetros de configuración de motor de búsqueda de tarjetas de asistencia.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3779,7 +3865,8 @@ Estas configuraciones se pueden hacer para cada entidad del árbol de una agenci
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de tarjetas de aisstencia. — Parámetros de configuración de pricing de tarjetas de asistencia.
+Documento: Configuración de tarjetas de aisstencia.
+Tema: Asistencias — Seguros de Viaje — Tarjetas de Asistencia al Viajero — Parámetros de configuración de pricing de tarjetas de asistencia.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3953,7 +4040,8 @@ Si el Proveedor dispone del servicio de anulación y la agencia negocia este ser
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Introducción.
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3963,7 +4051,8 @@ Como toda herramienta tecnológica el resultado satisfactorio de la adopción de
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Generalidades sobre las políticas por destino.
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Generalidades sobre las políticas por destino.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -3997,7 +4086,8 @@ Se puede definir la forma de pago del cliente final a la agencia.
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Ingreso al sistema.
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Ingreso al sistema.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4013,7 +4103,8 @@ Al hacer login se ingresa a la OBT; y se debe hacer clic sobre el botón que dic
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Menú principal.
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Menú principal.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4021,7 +4112,8 @@ Una vez ingresados al Gestor por la OBT, se hace clic en el menú 0-administrado
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Parámetros de configuración de motor de búsqueda de Autos
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Parámetros de configuración de motor de búsqueda de Autos
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4093,7 +4185,8 @@ Estas configuraciones se pueden hacer para cada entidad del árbol de una agenci
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: Configuración de autos. — Parámetros de configuración de pricing de Autos.
+Documento: Configuración de autos.
+Tema: Módulo de Autos — Renta de Vehículos — Configuración de Autos — Parámetros de configuración de pricing de Autos.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4247,7 +4340,8 @@ Sí; si la agencia así lo desea se puede configurar para que permita anular las
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: SPLIT LATAM — Introducción.
+Documento: SPLIT LATAM
+Tema: Split LATAM — División de Pago — LATAM Airlines — Emisión Dividida — Introducción.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4259,7 +4353,8 @@ El presente documento tiene como finalidad describir el alcance de la funcionali
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: SPLIT LATAM — Funcionalidad SPLIT
+Documento: SPLIT LATAM
+Tema: Split LATAM — División de Pago — LATAM Airlines — Emisión Dividida — Funcionalidad SPLIT
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4271,7 +4366,8 @@ El sistema desplegara una nueva ventana en la que se visualizarán los nombres d
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: SPLIT LATAM — Consideraciones importantes antes de realizar un SPLIT
+Documento: SPLIT LATAM
+Tema: Split LATAM — División de Pago — LATAM Airlines — Emisión Dividida — Consideraciones importantes antes de realizar un SPLIT
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4309,7 +4405,8 @@ Una vez realizado el SPLIT, y de acuerdo con lo indicado por la aerolínea, la n
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: SPLIT LATAM — Permisos necesarios para que el usuario pueda realizar SPLIT
+Documento: SPLIT LATAM
+Tema: Split LATAM — División de Pago — LATAM Airlines — Emisión Dividida — Permisos necesarios para que el usuario pueda realizar SPLIT
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 ──────────────────────────────────────────────────────────────────────
 
@@ -4327,7 +4424,8 @@ Una vez realizada la configuración “Guardar” los cambios para que aplique c
 
 
 ──────────────────────────────────────────────────────────────────────
-Documento: SPLIT LATAM — Configuración para ocultar la opción “dividir pnr” en usuario tipo cliente.
+Documento: SPLIT LATAM
+Tema: Split LATAM — División de Pago — LATAM Airlines — Emisión Dividida — Configuración para ocultar la opción “dividir pnr” en usuario tipo cliente.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 ──────────────────────────────────────────────────────────────────────
 

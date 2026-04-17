@@ -2566,3 +2566,279 @@ URL: https://pacardenaz.github.io/parametros-manual/params/219_Ver_reserva_sólo
 Código: VOUCHERPORTRANSACCION
 Título: Indica si se debe enviar el voucher de la emisión con TC por cada transacción.
 URL: https://pacardenaz.github.io/parametros-manual/params/355_VOUCHERPORTRANSACCION.html
+
+================================================================================
+PARÁMETROS ADICIONALES EXTRAÍDOS DE DOCUMENTACIÓN (no en índice principal)
+================================================================================
+Los siguientes parámetros están documentados en los manuales técnicos pero
+no aparecen en el índice principal de parámetros.
+
+
+--- Parámetros adicionales: MÓDULO DE ASISTENCIAS (23) ---
+
+Código: CANTIDADEDADESBUSCADORSEGUROS
+Descripción: CANTIDADEDADESBUSCADORSEGUROS: se configura un valor numérico del 1 al 10, con esta configuración se habilitan los campos donde se introducen las edades de los pasajeros para los que se solicita la tarjeta asistencia.
+
+Código: CONFIRMAREMISIONINSURANCE
+Descripción: CONFIRMAREMISIONINSURANCE: se configura con S o N para solo emitir la tarjeta de asistencia una vez se confirme el pago.
+
+Código: CONFIRMAREMISIONINSURANCECROSSSELLING
+Descripción: CONFIRMAREMISIONINSURANCECROSSSELLING: se configura con S o N, define si se emite la tarjeta de asistencia una vez realizada la reserva de vuelo.
+
+Código: EMITIRALAPROBARINSURANCE
+Descripción: EMITIRALAPROBARINSURANCE: se configura con S o N, obliga a que se apruebe la reserva de vuelo mas seguro para que se emita la tarjeta de asistencia.
+
+Código: INFOGENERALSEGUROETICKET
+Descripción: INFOGENERALSEGUROETICKET: se configura el nombre el contenido que tiene la información general del seguro en el E-ticket
+
+Código: INSURANCEMARKUP
+Descripción: INSURANCEMARKUP: se configura el código del perfil del markup configurado para los proveedores de tarjetas de asistencia.
+
+Código: INSURANCEPAGOPRIMERO
+Descripción: INSURANCEPAGOPRIMERO: se configura con S o N, define si se debe realizar primero el pago antes de realizar la emisión de la tarjeta de asistencia.
+
+Código: LIMITEEDADSEGUROS
+Descripción: LIMITEEDADSEGUROS: se configura un valor numérico, se define hasta que edad se va a considerar adulto mayor
+
+Código: MOSTRARLISTABROKERSBUSQSEGUROS
+Descripción: MOSTRARLISTABROKERSBUSQSEGUROS: se configura con S o N, para mostrar o no los proveedores de seguros.
+
+Código: MOSTRARTERMINOSCONDICIONESINSURANCE
+Descripción: MOSTRARTERMINOSCONDICIONESINSURANCE: se configura con valor So N para que se muestren los términos y condiciones configurados por la agencia en el gestor.
+
+Código: OBLIGAOPCIONSEGUROECONOMICOVUELO
+Descripción: OBLIGAOPCIONSEGUROECONOMICOVUELO: se configura con valor S o N, indica si se marca el seguro con tarifa más económica en el formulario de reserva de vuelo. Funciona con el parámetro MARCAROPCIONSEGUROVUELO.
+
+Código: OCULTARBTNANULARINSURANCE
+Descripción: OCULTARBTNANULARINSURANCE: se configura con valor S o N, para que se muestre el botón para anular reservas de tarjetas desde la plataforma (los proveedores que lo permiten).
+
+Código: OCULTAREMISIONMASIVASEGUROS
+Descripción: OCULTAREMISIONMASIVASEGUROS: se configura con S o N, para mostrar o no el campo de emisión masiva de seguros.
+
+Código: OCULTARPLANFAMILIARSEGUROS
+Descripción: OCULTARPLANFAMILIARSEGUROS: se configura con S o N, para mostrar o no el campo de plan familiar de seguros.
+
+Código: OCULTARTARJETAANUALSEGUROS
+Descripción: OCULTARTARJETAANUALSEGUROS: se configura con S o N, para mostrar o no el campo de tarjeta anual de seguros.
+
+Código: PAYMENTFORMINSURANCES
+Descripción: PAYMENTFORMINSURANCES: se configura con valores numéricos del 1 al 3 así, 1: pago en cash (facturado); 2: pago con TC; 3: ambos
+
+Código: PROVEEDORTARJETAASISTENCIASVUELOS
+Descripción: PROVEEDORTARJETAASISTENCIASVUELOS: se configura el nombre del proveedor de tarjetas de asistencia que se mostrara en la página del formulario de reserva de insurance, se separa con Pipeline.
+
+Código: SEARCHINSURANCERETRIEVE
+Descripción: SEARCHINSURANCERETRIEVE: se configura con S o N para habilitar un buscador de seguros desde el retrieve de la reserva.
+
+Código: SEGUROSENMONEDALOCAL
+Descripción: SEGUROSENMONEDALOCAL: se configura con valores S o N, se define si se muestra la tarifa de seguros en la moneda del país de la agencia.
+
+Código: SEGUROS_COPIAEMAILNOTIFICA
+Descripción: SEGUROS_COPIAEMAILNOTIFICA: se ingresan las direcciones de correo electrónico a los que les debe llegar copia delas reservas de seguros Mapfre separados por coma.
+
+Código: SHOWPROVIDERINSURANCE
+Descripción: SHOWPROVIDERINSURANCE: se configura con So N, se define si se muestra o no el proveedor de tarjetas de asistencia.
+
+Código: SHOWTIPOTARIFAASSIST1
+Descripción: SHOWTIPOTARIFAASSIST1: solo aplica para el proveedor Assist 1, define si se muestran o no las tarifas, se configura con S o N.
+
+Código: VALIDARSELECCIONSEGUROINTERNACIONAL
+Descripción: VALIDARSELECCIONSEGUROINTERNACIONAL: se configura con S o N, obliga seleccionar un seguro cuando se hacen reservas de vuelos internacionales.
+
+
+--- Parámetros adicionales: MÓDULO DE AUTOS (13) ---
+
+Código: AUTOS_ENVIARDETALLETARIFA
+Descripción: AUTOS_ENVIARDETALLETARIFA: se configura con valor de S o N, permite enviar información de la tarifa en el voucher de autos reservados.
+
+Código: AUTOS_USAPAGOSDIRECTO
+Descripción: AUTOS_USAPAGOSDIRECTO: se configura con S o N, permite el pago directo a la rentadora siempre y cuando no haya un pago configurado en la entidad.
+
+Código: AUTOS_USARCODIGOEMISORCOMOREMARK
+Descripción: AUTOS_USARCODIGOEMISORCOMOREMARK: se configura con valor S o N, usa el código del emisor en las reservas de autos.
+
+Código: CARSREST
+Descripción: CARSREST: se configura con valor de S o N, activa el uso del servicio Rest de autos.
+
+Código: CIASAUTOSBUSQUEDA_CARS_SABRE
+Descripción: CIASAUTOSBUSQUEDA_CARS_SABRE: se ingresan los códigos de las rentadoras con  las que se va a consultar con el proveedor Cars Sabre.
+
+Código: CONTENIDOTERMCONDAUTOS
+Descripción: CONTENIDOTERMCONDAUTOS: se configura el nombre del archivo HTML que contiene los términos y condiciones de autos de la agencia.
+
+Código: EXCLUIRCIASAUTOS
+Descripción: EXCLUIRCIASAUTOS: se ingresan los códigos de las rentadoras de todos los proveedores con los que no se quiere realizar la consulta de autos.
+
+Código: GOOGLECARSMAPSKEY
+Descripción: GOOGLECARSMAPSKEY: en este parámetro se configura la llave de Google que activa el mapa.
+
+Código: HEREDACONFIGURACIONACUERDOSAUTOS
+Descripción: HEREDACONFIGURACIONACUERDOSAUTOS: se configura con valores de S o N para que herede o no la configuración de los promocode en la entidad principal del árbol de entidades de una agencia.
+
+Código: INFOGENERALAUTOETICKET
+Descripción: INFOGENERALAUTOETICKET: se configura con S o N, activa el div de la información general en el voucher de autos.
+
+Código: PASARELAPAGOAUTOS
+Descripción: PASARELAPAGOAUTOS: se ingresa el nombre de la pasarela de pagos que se va a emplear cuando se vaya a pagar las reservas de autos.
+
+Código: PAYMENTCARSENTITIESRENTAL
+Descripción: PAYMENTCARSENTITIESRENTAL: se configuran los códigos de las tablas de pagos de preferidas por las rentadoras.
+
+Código: TIENEAUTOSPAGOPASARELA
+Descripción: TIENEAUTOSPAGOPASARELA: se ingresa el nombre de la pasarela de pagos que se va a emplear cuando se vaya a pagar las reservas de autos.
+
+
+--- Parámetros adicionales: CONFIGURACIÓN GENERAL (2) ---
+
+Código: SPLIT
+Descripción: SPLIT de pasajeros menores
+
+Código: TOLERANCIAHORASPRECIOBAJOINTER
+Descripción: TOLERANCIAHORASPRECIOBAJOINTER están configurados. De lo contrario, no se
+
+
+--- Parámetros adicionales: MÓDULO DE HOTELES (46) ---
+
+Código: ASUNTOCARTAGARANTIA
+Descripción: ASUNTOCARTAGARANTIA: Cuando se configura con valor de “S”, se adicionan el nombre del pasajero, el Checkin y el Checkout en el asunto del email  de la carta de garantía; si no se desean ingresar se configura con valor de “N”
+
+Código: CARGALIGERAHOTELES
+Descripción: CARGALIGERAHOTELES: se configura para que los hoteles en la disponibilidad vengan sin tarifas; Se configura con “S” para que no traiga las tarifas; si se configura con valor de “N” se traen las tarifas.
+
+Código: CODENTTARNEGOCIADAS
+Descripción: CODENTTARNEGOCIADAS: Se configura el código de la entidad de donde se van a tomar las tarifas de hoteles propios que se mostraran en la disponibilidad.
+
+Código: CODIGOENTIDADHOTELPADRE
+Descripción: CODIGOENTIDADHOTELPADRE: Se configura este parámetro para definir cuál es la entidad padre donde se cargan las tarifas de hoteles propios. Se configura el código de la entidad padre.
+
+Código: COMANDOHOTELESAMADEUS
+Descripción: COMANDOHOTELESAMADEUS: Se configuran comandos extras del proveedor Amadeus
+
+Código: DATOSADICCARTAGARANTIA
+Descripción: DATOSADICCARTAGARANTIA: se configura con valor de “S” para que tenga en cuanta campos adicionales en la carta de garantía; con valor de “N” si no se tienen en cuenta otros campos.
+
+Código: DISPOFNSHOTELES
+Descripción: DISPOFNSHOTELES: Se configura con los siguientes valores online, offline u all para saber el tipo de disponibilidad que se va a recibir del proveedor FNS ROOMS.
+
+Código: EMAILENVIOCARTAGARANTIA
+Descripción: EMAILENVIOCARTAGARANTIA: Se configura el correo electrónico al que por defecto s debe enviar la carta de garantía.
+
+Código: ENVIARCARTAGARANTIA
+Descripción: ENVIARCARTAGARANTIA: se configura con valor de “S” si la entidad maneja carta de garantía; se configura con valor de “N” cuando no la maneja.
+
+Código: FACTURARAGENCIACARTAGARANTIA
+Descripción: FACTURARAGENCIACARTAGARANTIA: Se configura con valor de “S” para que incluya el nombre de la agencia para la factura; con valor de “N” no se incluye
+
+Código: FILTERSOURCESPERDESTINATION
+Descripción: FILTERSOURCESPERDESTINATION: Cuando se configura este parámetro, en la lista de proveedores que se muestra en el buscador, únicamente se mostraran los que tengan hoteles en el destino consultado. Se configura con valores de “S” para que aplique o “N” para que no aplique.
+
+Código: FILTRARHOTELESREPETIDOS
+Descripción: FILTRARHOTELESREPETIDOS: Cuando se configura este parámetro, se comparan los hoteles entre los diferentes proveedores en el destino consultado y solo se publica uno si dos o más proveedores tiene el mismo hotel. Se configura con valor de “S” para que aplique o “N” para que no aplique.
+
+Código: FNS_ENVIOEMAILPAX_RESERVA
+Descripción: FNS_ENVIOEMAILPAX_RESERVA: Cundo se configura con valor de “S” se envía el email del pasajero en el proceso de reserva; si no se configura el parámetro o el valor es “N” no se envía para el proveedor FNS ROOMS.
+
+Código: GRUPOFEEHOTEL
+Descripción: GRUPOFEEHOTEL: Cuando se configura este parámetro; en la entidad donde se configura aplicara el markup de acuerdo a las reglas creadas en el grupo FEE de markup para hoteles. Se configura el del grupo creado. Este parámetro tiene mayor jerarquía que el parámetro B2C2_CodigoMarkupHoteles (sobre escribe esta configuración) y tiene mayor jerarquía que la configuración de markup por conexión.
+
+Código: HIDECOORDINATESFILTER
+Descripción: HIDECOORDINATESFILTER: Cuando se configura este parámetro se muestra o no el filtro de coordenadas geográficas de hoteles: Si se desea ocultar se configura con valor de “S”, si se quiere mostrar se configura con valor de “N”.
+
+Código: HOTELAMADEUSREJECTEDCHAINS
+Descripción: HOTELAMADEUSREJECTEDCHAINS: En este parámetro se configuran los códigos de las cadenas hoteleras de Amadeus que no se quieren mostrar en la disponibilidad separados por punto y coma.
+
+Código: HOTELEXCLUDEINT
+Descripción: HOTELEXCLUDEINT: Cuando se configura este parámetro, los proveedores que se configuren en el parámetro no serán tenidos en cuenta en consultas internacionales. Se configuran los nombres de los proveedores separados por comas sin espacio.
+
+Código: HOTELFORCEOMNIBEESCORPCODE
+Descripción: HOTELFORCEOMNIBEESCORPCODE: predetermina solo consulta de hoteles con acuerdo corporativo para el proveedor Omnibees. Se configura con valor de “S” para que lo haga o “N” para que no lo haga.
+
+Código: HOTELSHOWNAMADEUSCRITERIA
+Descripción: HOTELSHOWNAMADEUSCRITERIA: Cuando se configura este parámetro, se activa consultas por dirección, nombre o cadena para el proveedor de Amadeus. Se configura con valor de “S” para que se active o de “N” para que no se active.
+
+Código: HOTELSHOWNORFFLAGS
+Descripción: HOTELSHOWNORFFLAGS: Cuando se configura este parámetro con valor de “S”, se activan o desactivan la marcación de las tarifas no reembolsables.
+
+Código: HOTEL_DEFAULT_RESULTORDER
+Descripción: HOTEL_DEFAULT_RESULTORDER: con la configuración de este parámetro se define el ordenamiento por hoteles en la disponibilidad que criterio lo determinara. "REC" //orden de recomendación; "PRI"  //precio; "AWA" //categoria del hotel; "COR" //orden por acuerdo corporativo.
+
+Código: HOTEL_GUARANTEE_TYPE_OPTIONS
+Descripción: HOTEL_GUARANTEE_TYPE_OPTIONS: En este parámetro se configuran los diferentes códigos de las tipos de garantía que acepta un proveedor; para que los tenga en cuenta todos se configura como valor asterisco (*).
+
+Código: HOTEL_SBDOMESTICPAX
+Descripción: HOTEL_SBDOMESTICPAX: Cuando se configura este parámetro, se activa o desactiva la consulta de hoteles por pasajeros nacionales: Con valor de “S” se activa, con valor de “N” se desactiva.
+
+Código: HOTEL_SEARCHBOXFOREIGN
+Descripción: HOTEL_SEARCHBOXFOREIGN: cuando se configura este parámetro se activa o desactiva el control de pasajero extranjero para consultas de hoteles. Con valor de “S” se activa, con valor de “N” se desactiva.
+
+Código: HTMLCARTAGARANTIA
+Descripción: HTMLCARTAGARANTIA: Se configura el nombre  del archivo HTML para la carta de garantía.
+
+Código: INCLUDEHOTELAMENITY
+Descripción: INCLUDEHOTELAMENITY: Cuando se configura con valor de “S” permite ver los servicios del hotel ,si se configura con valor de “N”  no los muestra
+
+Código: INFOGENERALHOTELETICKET
+Descripción: INFOGENERALHOTELETICKET: Cuando se configura con valor de “S”, muestra el template con la información; cuando se configura con valor de “N”, no se muestra.
+
+Código: LMAP
+Descripción: LMAP ingresando un valor que sea múltiplo de 500 (este valor representa metros)
+
+Código: MARGINSEARCHHOTELMAP
+Descripción: MARGINSEARCHHOTELMAP: Cuando se configura este parámetro se muestra un campo donde se define un rango de búsqueda en el mapa de hoteles, se configura con valores múltiplos de 500 (el valor corresponde a metros).
+
+Código: MOSTRAREDADRETRIEVE
+Descripción: MOSTRAREDADRETRIEVE: Cuando se configura con valor de “S”, muestra las edades de los niños o Infantes; cuando se configura Valor de “N”, no las muestra.
+
+Código: MOSTRARMENSAJESOLICITUDHOTELES
+Descripción: MOSTRARMENSAJESOLICITUDHOTELES: Cuando se configura con valor de “S” se muestra mensaje de solicitud de hoteles. Con valor de “N” no se muestra.
+
+Código: MOSTRARTARIFASINFOADICIONAL
+Descripción: MOSTRARTARIFASINFOADICIONAL: Cuando se configura con valor de “S” muestra al información; cuando se configura con valor de “N” la muestra.
+
+Código: MOSTRARTOTAL_VOUCHERHOTEL
+Descripción: MOSTRARTOTAL_VOUCHERHOTEL: Cuando se configura con valor de “S” se muestra el total de la tarifa; con valor de “N” no se muestra.
+
+Código: MOSTRARUSUARIORESERVAVOUCHER
+Descripción: MOSTRARUSUARIORESERVAVOUCHER: Cuando se configura con valor de “S” muestra al información del usuario; cuando se configura con valor de “N” la muestra.
+
+Código: NOMCAMPOSADICCARTAGARANTIA
+Descripción: NOMCAMPOSADICCARTAGARANTIA: Se configuran los campos adicionales que se usan en la carta de garantía separados por coma.
+
+Código: OCULTARINFORMACIONADICIONAL
+Descripción: OCULTARINFORMACIONADICIONAL: Cuando se configura con valor de “S” no muestra la información, cuando se configura con valor de “N” si la muestra.
+
+Código: OCULTARTARIFASHOTELIMOUESTO
+Descripción: OCULTARTARIFASHOTELIMOUESTO: Con la configuración de este parámetro se muestra un texto que informa si el hotel incluye o no los impuestos en la tarifa: Se configura a conveniencia de la agencia. Se configura con valor de “S” para que lo muestre o con valor de “N” para que no lo muestre.
+
+Código: OMNIBEESHOTELSCORPCODES
+Descripción: OMNIBEESHOTELSCORPCODES:  Se configuran los códigos delos acuerdos corporativos del proveedor Omnibees separados por coma.
+
+Código: OMNIBEES_HOTEL_CODIGOPCC
+Descripción: OMNIBEES_HOTEL_CODIGOPCC: Se configura el PCC que emplea hoteles Omnibees.
+
+Código: ORDENARPORCADENAHOTELERA
+Descripción: ORDENARPORCADENAHOTELERA: Cuando se configura este parámetro se muestran los hoteles por orden de cadena hotelera. Con valor de “S”, lo ordena por cadenas, con valor de “N”, no lo ordena. Se configura en conjunto con el parámetro OTAHOTELCHAINSQUERY
+
+Código: ORDEREXCLUSIVEDEALTAGHOTELS
+Descripción: ORDEREXCLUSIVEDEALTAGHOTELS:Cundo se configura con valor de “S” se muestran como prioritarios los hoteles recomendados de Hotelbeds.
+
+Código: OTAHOTELCHAINSQUERY
+Descripción: OTAHOTELCHAINSQUERY: En este parámetro se configura el orden de cadenas hoteleras como quiere que se muestren en la disponibilidad; se configuran los nombres de  las cadenas separados por coma sin espacio. Se configura en conjunto con el parámetro ORDENARPORCADENAHOTELERA.
+
+Código: PAYMENTFORMHOTEL
+Descripción: PAYMENTFORMHOTEL: con este parámetro se define la forma de pago que acepta la agencia; toma los valores 1: Facturado; 2 TC y 3 ambas. Este para metro tiene menor jerarquía que el configurado directamente al usuario que realiza la solicitud.
+
+Código: SHOWEXCLUSIVEDEALTAGHOTELS
+Descripción: SHOWEXCLUSIVEDEALTAGHOTELS: Se configura con valor de “S” para que marque los hoteles recomendados por Hotelbeds.
+
+Código: SHOWFNSPAYMENT
+Descripción: SHOWFNSPAYMENT: Cuando se configura en S, en el formulario de pago se muestra la forma de pago para los hoteles del proveedor FNS ROOMMS.
+
+Código: SPLITPAGOPASARELAMASHOTEL
+Descripción: SPLITPAGOPASARELAMASHOTEL: Cuando se configura en reservas de vuelo más hoteles para que disperse el FEE; se configura con valor de “S” para que disperse o con valor de “N” para que no disperse.
+
+
+--- Parámetros adicionales: UDIDs (1) ---
+
+Código: UDID
+Descripción: UDID Abierto: Es visible en el formulario de reserva y el usuario ingresa manualmente la información.

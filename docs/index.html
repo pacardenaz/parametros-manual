@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Documentación OBT | Ideas Fractal</title>
+<style>
+
+*, *::before, *::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#22263a;
+  --accent:#4f8ef7;--accent2:#7b61ff;--text:#e2e8f0;--muted:#8892a4;
+  --border:#2d3348;--code-bg:#1e2235;--radius:10px;
+}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;
+     font-size:15px;line-height:1.7;min-height:100vh}
+
+/* topbar */
+.topbar{background:var(--surface);border-bottom:1px solid var(--border);
+        padding:.75rem 2rem;display:flex;align-items:center;justify-content:space-between;
+        position:sticky;top:0;z-index:100}
+.topbar-brand{display:flex;align-items:center;gap:.5rem;font-weight:700;
+              font-size:.95rem;color:var(--accent)}
+.topbar-nav{font-size:.82rem;color:var(--muted)}
+.topbar-nav a{color:var(--muted);text-decoration:none}
+.topbar-nav a:hover{color:var(--text)}
+
+/* hero */
+.hero{background:linear-gradient(135deg,#161927 0%,#1a1f35 50%,#1e2540 100%);
+      border-bottom:1px solid var(--border);padding:2.5rem 2rem}
+.hero-inner{max-width:900px;margin:0 auto}
+.hero-tag{display:inline-flex;align-items:center;gap:.4rem;
+          background:rgba(79,142,247,.15);color:var(--accent);
+          border:1px solid rgba(79,142,247,.3);border-radius:20px;
+          font-size:.75rem;font-weight:600;padding:.25rem .75rem;
+          text-transform:uppercase;letter-spacing:.05em;margin-bottom:.75rem}
+.hero h1{font-size:1.9rem;font-weight:800;line-height:1.2;
+         background:linear-gradient(135deg,#e2e8f0,#a0aec0);
+         -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+         background-clip:text;margin-bottom:.75rem}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+.badge{padding:.25rem .65rem;border-radius:6px;font-size:.72rem;font-weight:600;letter-spacing:.03em}
+.badge-doc{background:rgba(79,142,247,.2);color:#7bb3ff;border:1px solid rgba(79,142,247,.3)}
+.badge-type{background:rgba(123,97,255,.2);color:#b99fff;border:1px solid rgba(123,97,255,.3)}
+
+/* layout */
+.layout{display:flex;max-width:1100px;margin:0 auto;gap:2rem;padding:2rem}
+.sidebar{width:240px;flex-shrink:0;position:sticky;top:70px;height:fit-content}
+.sidebar-title{font-size:.7rem;font-weight:700;text-transform:uppercase;
+               letter-spacing:.08em;color:var(--muted);margin-bottom:.75rem}
+.toc-list{list-style:none}
+.toc-list li{margin-bottom:.25rem}
+.toc-list a{color:var(--muted);text-decoration:none;font-size:.82rem;
+            display:block;padding:.2rem .5rem;border-radius:4px;transition:all .2s}
+.toc-list a:hover{color:var(--text);background:var(--surface2)}
+.toc-list a.active{color:var(--accent);background:rgba(79,142,247,.1)}
+.main{flex:1;min-width:0}
+
+/* content */
+.section{background:var(--surface);border:1px solid var(--border);
+         border-radius:var(--radius);padding:1.75rem;margin-bottom:1.5rem}
+.section-title{font-size:1.15rem;font-weight:700;color:var(--accent);
+               margin-bottom:1rem;padding-bottom:.5rem;
+               border-bottom:1px solid var(--border)}
+.section-sub{font-size:1rem;font-weight:600;color:#b0bfd8;margin:1rem 0 .5rem}
+.section-sub3{font-size:.9rem;font-weight:600;color:var(--muted);margin:.75rem 0 .4rem}
+p.desc{color:#c8d4e8;margin-bottom:.75rem}
+code{background:var(--code-bg);color:#7dd3fc;padding:.1em .4em;
+     border-radius:4px;font-size:.85em;font-family:'Consolas','Courier New',monospace}
+.ss-wrap{margin:1.25rem 0;border-radius:8px;overflow:hidden;
+         border:1px solid var(--border)}
+.ss-wrap img{width:100%;display:block}
+.ss-cap{background:var(--surface2);color:var(--muted);font-size:.75rem;
+        padding:.35rem .75rem;text-align:center}
+.tbl{width:100%;border-collapse:collapse;font-size:.85rem;margin:1rem 0}
+.tbl th{background:var(--surface2);color:var(--accent);padding:.6rem .9rem;
+        text-align:left;border-bottom:2px solid var(--border)}
+.tbl td{padding:.5rem .9rem;border-bottom:1px solid var(--border);color:#c8d4e8}
+.tbl tr:hover td{background:rgba(79,142,247,.05)}
+.note-box{background:rgba(79,142,247,.08);border-left:3px solid var(--accent);
+          border-radius:0 6px 6px 0;padding:.75rem 1rem;margin:1rem 0;
+          color:#b0c8f0;font-size:.9rem}
+
+/* back link */
+.back-bar{max-width:1100px;margin:0 auto;padding:1rem 2rem}
+.back-link{display:inline-flex;align-items:center;gap:.4rem;color:var(--muted);
+           text-decoration:none;font-size:.82rem}
+.back-link:hover{color:var(--accent)}
+
+@media(max-width:768px){
+  .layout{flex-direction:column;padding:1rem}
+  .sidebar{width:100%;position:static}
+  .hero{padding:1.5rem 1rem}
+  .hero h1{font-size:1.4rem}
+}
+
+.docs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem;padding:2rem;max-width:1100px;margin:0 auto}
+.doc-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+          padding:1.5rem;text-decoration:none;color:var(--text);transition:all .2s;display:block}
+.doc-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.doc-type{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
+           color:var(--accent);margin-bottom:.5rem}
+.doc-title{font-size:1rem;font-weight:600;margin-bottom:.5rem;color:#e2e8f0}
+.doc-desc{font-size:.82rem;color:var(--muted);line-height:1.5}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-brand">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+    </svg>
+    Documentación OBT
+  </div>
+  <nav class="topbar-nav">
+    <a href="../index.html">Parámetros</a> &rsaquo;
+    <span>Documentación</span>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">📚 Sistema OBT</div>
+    <h1>Documentación Técnica</h1>
+    <div class="hero-meta">
+      <span class="badge badge-doc">10 documentos</span>
+    </div>
+  </div>
+</section>
+<div class="docs-grid">
+
+    <a href="01_configuracion-jeeves.html" class="doc-card">
+      <div class="doc-type">PDF</div>
+      <div class="doc-title">Configuracion Jeeves</div>
+      <div class="doc-desc">Control de Versiones ...................................................................................................</div>
+    </a>
+    <a href="02_flujocorporativokt.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">FlujoCorporativoKT</div>
+      <div class="doc-desc">Flujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, ColombiaFlujo Corporativo - KontrolTravelDocume</div>
+    </a>
+    <a href="03_manual-ventana-de-precios-1-1.html" class="doc-card">
+      <div class="doc-type">PDF</div>
+      <div class="doc-title">Manual Ventana de Precios (1) (1)</div>
+      <div class="doc-desc">Control de versiones ...................................................................................................</div>
+    </a>
+    <a href="04_manual-de-udids-1.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">Manual de UDIDS (1)</div>
+      <div class="doc-desc">Manual de UdidsDocumento guíaIdeas Fractal SASPereira, ColombiaManual de UdidsDocumento guíaIdeas Fractal SASPereira, Co</div>
+    </a>
+    <a href="05_reemisión-reservas.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">REEMISIÓN RESERVAS</div>
+      <div class="doc-desc">Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias, se pone a dis</div>
+    </a>
+    <a href="06_configuración-del-markup-por-el-gestor.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">Configuración del markup por el gestor</div>
+      <div class="doc-desc">Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de Markup por parte </div>
+    </a>
+    <a href="07_configuración-de-hoteles.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">Configuración de Hoteles</div>
+      <div class="doc-desc">Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de hoteles, en el pr</div>
+    </a>
+    <a href="08_configuración-de-tarjetas-de-aisstencia..html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">Configuración de tarjetas de aisstencia.</div>
+      <div class="doc-desc">Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de tarjetas de asist</div>
+    </a>
+    <a href="09_configuración-de-autos..html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">Configuración de autos.</div>
+      <div class="doc-desc">Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de autos, en el pres</div>
+    </a>
+    <a href="10_split-latam.html" class="doc-card">
+      <div class="doc-type">DOCX</div>
+      <div class="doc-title">SPLIT LATAM</div>
+      <div class="doc-desc">Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias de viaje, se p</div>
+    </a>
+</div>
+</body>
+</html>

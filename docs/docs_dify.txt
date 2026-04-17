@@ -1,0 +1,50 @@
+Título: Configuracion Jeeves
+Tipo: PDF
+Descripción: Control de Versiones ..................................................................................................................... 2
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Título: FlujoCorporativoKT
+Tipo: DOCX
+Descripción: Flujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, ColombiaFlujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, Colombia
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Título: Manual Ventana de Precios (1) (1)
+Tipo: PDF
+Descripción: Control de versiones ............................................................................................................... 3
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Título: Manual de UDIDS (1)
+Tipo: DOCX
+Descripción: Manual de UdidsDocumento guíaIdeas Fractal SASPereira, ColombiaManual de UdidsDocumento guíaIdeas Fractal SASPereira, Colombia
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Título: REEMISIÓN RESERVAS
+Tipo: DOCX
+Descripción: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias, se pone a disposición la funcionalidad de reemisión de reservas permite realizar modificaciones de fechas y/o rutas sobre reservas previamente 
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/05_reemisión-reservas.html
+
+Título: Configuración del markup por el gestor
+Tipo: DOCX
+Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de Markup por parte de la agencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema de Markup
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Título: Configuración de Hoteles
+Tipo: DOCX
+Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de hoteles, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de hoteles
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Título: Configuración de tarjetas de aisstencia.
+Tipo: DOCX
+Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de tarjetas de asistencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configura
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Título: Configuración de autos.
+Tipo: DOCX
+Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de autos, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de autos, al
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Título: SPLIT LATAM
+Tipo: DOCX
+Descripción: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias de viaje, se pone a disposición la funcionalidad de SPLIT de pasajeros para reservas LATAM vía NDC.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+

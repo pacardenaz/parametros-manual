@@ -88,15 +88,17 @@ URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujo
 
 Documento: FlujoCorporativoKT
 Sección: Fundamentos
+Contenido: El Flujo Corporativo de KontrolTravel permite gestionar reservas y cotizaciones bajo políticas corporativas definidas por cada empresa. La guía cubre tres pilares: (1) Estructura de Datos: definición de roles, entidades y generalidades. (2) Mecanismos de Aprobación: flujos secuencial, paralelo y "cualquiera aprueba", más flujos alternativos para excepciones. (3) Aplicación de Políticas: reglas corporativas por producto (vuelos, hoteles, autos) y por geografía (destinos bloqueados, políticas nacionales/internacionales).
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
 Documento: FlujoCorporativoKT
 Sección: Conceptos
-Contenido: OBT: No solo gestiona solicitudes, sino que es el motor de cumplimiento de políticas. Garantiza que el usuario interactúe con opciones que ya han pasado las primeras validaciones corporativas antes de la reserva. Entidad y Entidad padre: La estructura permite que las políticas, acuerdos y perfiles de usuario sean heredados desde el nivel Padre (ej. Holding) hacia las Entidades Hijas (ej. filiales locales), simplificando la gestión centralizada de configuraciones. Cuando se hable de entidad puede hacer relación a: agencia, Filial de agencia, área departamento de una agencia, área de negocio, cliente, holding, empresa parte de un holding. Siempre en una entidad existirá una entidad padre. No puede darse el caso que una entidad sea a su vez el mismo padre porque se generaría una relación circular lo que haría generar una especie de ciclo infinito. Árbol de entidades: Su jerarquía determina la prioridad y herencia de las configuraciones. Si un parámetro se cambia en una entidad hija, solo afecta a esa específicamente y a sus descendientes, sin afectar al padre. Política: Hace relación al proceso de definir un conjunto de opciones que se deben aplicar a un cliente, las políticas de viaj
+Contenido: OBT: Motor de cumplimiento de políticas; garantiza que el usuario interactúe solo con opciones que pasaron validaciones corporativas. Entidad y Entidad padre: Las políticas, acuerdos y perfiles se heredan desde la entidad Padre (ej. Holding) hacia las Entidades Hijas (filiales). Árbol de entidades: La jerarquía determina la prioridad y herencia de configuraciones; un cambio en una entidad hija solo afecta a esa y sus descendientes. Política: Conjunto de reglas que limitan opciones de reserva (clase de vuelo permitida, hotel máximo, etc.). Centro de Costo (CECO): Unidad organizacional para el control presupuestal de los viajes. Aprobador: Usuario con rol de aprobación asignado a viajeros, CECO o entidad. Flujo de aprobación: Proceso por el que una solicitud de reserva obtiene autorización antes de emitirse.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
 Documento: FlujoCorporativoKT
 Sección: Estructura organizacional: Herencia y roles
+Contenido: KontrolTravel usa una estructura multinivel: una configuración en el nivel más alto (padre) aplica a todos los niveles inferiores. El comportamiento de una entidad inferior cambia solo cuando se sobreescribe su configuración indicando que no asuma la del padre. Roles principales: Administrador de la entidad (configura parámetros, políticas y aprobadores), Agente (gestiona reservas), Cliente/Viajero (realiza solicitudes), Aprobador (autoriza o rechaza reservas según políticas). La herencia puede configurarse para CECOs, motivos de viaje, UDIDs y aprobadores mediante parámetros como HEREDACECOSPADRE, HEREDARMOTIVOSPADRE, HEREDARUDIDSPADRE, MOSTRARAPROBADORESPADRE, MOSTRARPASAJEROSPADRE.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
 Documento: FlujoCorporativoKT
@@ -125,8 +127,39 @@ Contenido: El flujo de aprobación es el mecanismo de control que garantiza que 
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
 Documento: FlujoCorporativoKT
-Sección: Parámetros generales
-Contenido: Para asegurar el correcto funcionamiento del flujo corporativo en la plataforma de un cliente, es imprescindible llevar a cabo una configuración inicial de parámetros esenciales. Esta configuración sienta las bases para la ejecución adecuada de todos los procesos transaccionales. La configuración inicial debe incluir los siguientes parámetros fundamentales que definen la operación básica del flujo corporativo. Sin embargo, para que el sistema opere acorde a las necesidades específicas de la compañía, es necesario agregar parámetros adicionales que se ajusten a las políticas internas y el flujo de autorización del cliente. Estos pueden incluir: Reglas de Aprobación: Definición de niveles jerárquicos y límites de gasto. Ejemplos como holdings o empresas que necesiten dividir la configuración en varias entidades o que se herede la configuración desde una entidad principal Para ello es necesario unos parámetros de configuración adicionales que permiten heredar o visualizar la información de una entidad principal a las entidades hijas o filiales. En resumen, el éxito radica en complementar la configuración básica con la personalización que refleje la operativa real de la organización. A
+Sección: Parámetros generales del flujo corporativo
+Contenido: Los siguientes parámetros son necesarios para configurar el flujo corporativo en KontrolTravel:
+Parámetro | Valor | Descripción
+PROCESOAPROBACION | C/S/P | Define el flujo para viajes nacionales: C=Cualquiera aprueba, S=Secuencial, P=Paralelo.
+PROCESOAPROBACIONINTER | C/S/P | Define el flujo para viajes internacionales: C=Cualquiera aprueba, S=Secuencial, P=Paralelo.
+SHOWCORPORATEINFO | S/N | S=muestra la información corporativa del flujo de reserva a usuarios tipo Agente.
+SHOWCORPORATEINFOCLIENTE | S/N | S=muestra el estado del flujo de aprobación a usuarios tipo Cliente.
+AUTOCOMPLETEPASSENGERINFO | S/N | S=autocompleta los datos del pasajero con la información guardada en su perfil.
+IGNOREAUTOCOMPLETEPAXINFO | S/N | S=permite omitir el autocompletado para registrar viajeros invitados o externos no registrados.
+XCAFPOLITICASVIAJE | S/N | S=la entidad manejará políticas de viaje con validación durante el proceso de reserva.
+XCAFMOTIVOSVIAJE | S/N | S=el sistema solicita al usuario seleccionar un motivo de viaje preconfigurado.
+XCAFRAZONESNOCUMPLIMIENTO | S/N | S=habilita motivos de incumplimiento cuando el viajero reserve fuera de política.
+SHOWCOSTCENTER | S/N | S=muestra la sección de Centros de Costo en el formulario de reserva.
+SHOWUDIDS | S/N | S=muestra la sección de campos gerenciales (UDIDs) en el formulario de reserva.
+MANEJAUDIDS | S/N | S=la entidad tiene habilitada la funcionalidad para procesar campos gerenciales (UDIDs).
+OBLIGAJUSTIFICACIONINCUMPLIMIENTO | S/N | S=obliga a ingresar justificación textual cuando se detecta incumplimiento de política.
+OBLIGACENTROCOSTORESERVA | S/N | S=obliga a asignar al menos un Centro de Costo para completar la reserva.
+OBLIGAMOTIVORESERVA | S/N | S=obliga a seleccionar un motivo de viaje para finalizar la solicitud.
+OBLIGAAPROBADORESRESERVA | S/N | S=exige la existencia de al menos un aprobador configurado para crear la reserva.
+MANEJAAPROBADORINTERNACIONAL | S/N | S=maneja distintos aprobadores para viajes nacionales e internacionales.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Parámetros de herencia entre entidades (flujo corporativo)
+Contenido: Para empresas con estructura de holding/filiales, estos parámetros controlan qué configuraciones se heredan de la entidad padre a las entidades hijas:
+Parámetro | Valor | Descripción
+HEREDACECOSPADRE | S/N | S=la entidad hija hereda los Centros de Costo del padre para sus transacciones.
+HEREDARMOTIVOSPADRE | S/N | S=la entidad hija puede visualizar y usar los motivos de viaje creados en el padre.
+HEREDARUDIDSPADRE | S/N | S=la entidad hija puede usar los UDIDs de la entidad definida en CODENTIDADHEREDAUDIDS.
+CODENTIDADHEREDAUDIDS | Código entidad | Código numérico de la entidad origen para heredar UDIDs (requiere HEREDARUDIDSPADRE=S).
+NOHEREDARMOTIVOSINCUMPLEPADRE | S/N | S=NO hereda los motivos de incumplimiento; la entidad hija debe configurar los propios.
+MOSTRARAPROBADORESPADRE | S/N | S=la entidad hija puede visualizar y usar los aprobadores del padre en el flujo de aprobación.
+MOSTRARPASAJEROSPADRE | S/N | S=la entidad hija puede visualizar y seleccionar viajeros del padre para realizar reservas.
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
 Documento: FlujoCorporativoKT

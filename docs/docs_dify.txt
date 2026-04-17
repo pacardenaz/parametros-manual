@@ -1,50 +1,905 @@
-Título: Configuracion Jeeves
-Tipo: PDF
-Descripción: Control de Versiones ..................................................................................................................... 2
+Documento: Configuracion Jeeves
+Sección: De Jeeve
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
 
-Título: FlujoCorporativoKT
-Tipo: DOCX
-Descripción: Flujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, ColombiaFlujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, Colombia
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Configuración de parámetros ………..……………………………………………………………………………………….. 6 Crear tarjeta de crédito virtual ……………………………………………………………………………………………….. 9 Eliminar tarjeta virtual……………………………………………………………………………………………………………..10 Uso de tarjetas virtuales para pagos de reservas …………………………………………………………………… 11
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Fecha Autor Descripcion Revisado Por Versión
+Contenido: 31/03/26 Mateo Arias Manual de 1.0 Sanchez configuración
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Este documento pretende guiar de manera clara y estructurada el proceso de configuración del sistema Jeeve, proporcionando las instrucciones necesarias para su correcta implementación y funcionamiento. A lo largo de este documento, se describen los pasos, parámetros y consideraciones clave que deben tenerse en cuenta para garantizar una configuración adecuada, alineada con las necesidades operativas de la organización.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Jeeves es una plataforma tecnológica utilizada por las empresas para la gestión y administración de tarjetas de crédito virtuales corporativas. Esta solución permite emitir, controlar y monitorear tarjetas virtuales que son utilizadas para realizar pagos asociados a procesos empresariales, como reservas de viajes, gastos corporativos u otras transacciones autorizadas por la organización. La plataforma ofrece servicios que permiten a otros sistemas empresariales integrarse
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: ¿Qué hace Jeeves dentro del proceso? Dentro de la arquitectura del sistema, Jeeves cumple el rol de proveedor del servicio financiero y de emisión de tarjetas virtuales. A través de la integración implementada, el sistema interno puede comunicarse con la plataforma para ejecutar diferentes operaciones, entre ellas: • Crear tarjetas de crédito virtuales, asociadas a una reserva o transacción
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: S oluciones de viajes Beneficios de u tilizar Jeeves El uso de la plataforma Jeeves dentro de la integración proporciona varios beneficios para la organización: • Automatización de procesos de pago dentro de los sistemas corporativos. • Mayor seguridad, ya que las tarjetas virtuales pueden generarse con límites y
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Corresponde a la URL base del servicio web de Jeeves. Actualmente, en la integración se encuentra configurado el ambiente de pruebas (test) proporcionado por el proveedor. Clave de autenticación proporcionada por Jeeves a cada agencia. Este valor es único por agencia y se utiliza junto con el client_id para el proceso de autenticación en la API.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Si el certificado utilizado es el mismo para todas las agencias, los valores correspondientes a: serán los mismos para todas las configuraciones de agencia. En estos casos, únicamente deberán variar los siguientes parámetros para cada agencia: Estos valores son únicos por agencia y son proporcionados directamente por el proveedor Jeeves, y estas credenciales se guardarán en la bóveda de ideas fractal para mayor seguridad de la agencia.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Opción para crear una tarjeta de crédito virtual en jeeves Definición de campos para la creación de la tarjeta virtual A continuación, se describen los campos requeridos para el proceso de creación de una tarjeta de crédito virtual en la plataforma Jeeves. • Fecha inicio de uso de la tarjeta Corresponde a la fecha a partir de la cual la tarjeta virtual creada en Jeeves comienza
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: • Nombre de referencia para la creación de la tarjeta (TC) Este campo permite definir el nombre de la persona o referencia asociada a la creación de la tarjeta virtual. Es importante tener en cuenta que no se permite ingresar más de 200 caracteres, ya que el sistema de Jeeves rechazará la solicitud si se supera este límite. • Dirección de residencia
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: 1. Enviar la solicitud de eliminación de la tarjeta a la plataforma Jeeves.
+Contenido: 2. Actualizar el estado de la tarjeta en el sistema KontrolTravel/XNET, marcándola como De esta forma se garantiza que la tarjeta no pueda volver a ser utilizada ni en Jeeves ni en el sistema
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: Ideas Fractal
+Contenido: Uso de tarjetas virtuales para pago de reservas Para realizar pagos de reservas utilizando tarjetas virtuales integradas con Jeeves, es necesario que la entidad tenga configurada esta opción dentro del formulario de En los casos donde la emisión de la reserva se realiza de forma manual, la entidad debe tener habilitada la opción de tarjetas virtuales en las Opciones de Pago. Al momento de realizar el pago de la reserva, el sistema creará internamente una tarjeta de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: Configuracion Jeeves
+Sección: • Formapagoclientecorporativo = V
+Contenido: Cuando este parámetro se encuentra configurado, el sistema creará automáticamente las tarjetas virtuales a través de la integración con Jeeves, permitiendo realizar el pago y completar la emisión de la reserva sin intervención manual. En este proceso, la tarjeta virtual se genera utilizando la información definida en el OBT y el monto correspondiente a la reserva. De esta manera, la tarjeta virtual será creada automáticamente y utilizada como medio de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/01_configuracion-jeeves.html
+
+Documento: FlujoCorporativoKT
+Contenido: Flujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, ColombiaFlujo Corporativo - KontrolTravelDocumento guíaIdeas Fractal SASPereira, Colombia
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
 
-Título: Manual Ventana de Precios (1) (1)
-Tipo: PDF
-Descripción: Control de versiones ............................................................................................................... 3
+Documento: FlujoCorporativoKT
+Sección: Control de versiones
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+17/11/25 | Pilar Azcárate | Documento Guía | Herney Salazar | 1.0
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Introducción
+Contenido: Este documento es una Guía detallada diseñada para profundizar en el conocimiento y la gestión operativa de la plataforma KontrolTravel . Está dirigido a administradores, gestores de viajes, y usuarios corporativos clave que requieren un dominio completo del entorno de control y aprobación que tiene la plataforma de Autogestión Corporativa creada por IdeasFractal. El objetivo principal es proporcionar un entendimiento claro y detallado del flujo corporativo, desde la terminología básica hasta la aplicación de las políticas más complejas. La guía cubre tres pilares fundamentales: la Estructura de Datos, los Mecanismos de Aprobación y la Aplicación de Políticas. Contenido Clave de este Documento Fundamentos Esenciales: Se establece un vocabulario técnico claro, definiendo roles clave, información corporativa y generalidades. Gestión de Flujos de Aprobación: Se detalla el funcionamiento lógico de los modelos de aprobación disponibles, incluyendo los Flujos Alternativos que gestionan las excepciones y la escalabilidad jerárquica. Aplicación y Jerarquía de Políticas: Se explora cómo las reglas corporativas se aplican a nivel de producto y geográfico (Destinos Bloqueados, Políticas por D
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Fundamentos
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Conceptos
+Contenido: OBT: No solo gestiona solicitudes, sino que es el motor de cumplimiento de políticas. Garantiza que el usuario interactúe con opciones que ya han pasado las primeras validaciones corporativas antes de la reserva. Entidad y Entidad padre: La estructura permite que las políticas, acuerdos y perfiles de usuario sean heredados desde el nivel Padre (ej. Holding) hacia las Entidades Hijas (ej. filiales locales), simplificando la gestión centralizada de configuraciones. Cuando se hable de entidad puede hacer relación a: agencia, Filial de agencia, área departamento de una agencia, área de negocio, cliente, holding, empresa parte de un holding. Siempre en una entidad existirá una entidad padre. No puede darse el caso que una entidad sea a su vez el mismo padre porque se generaría una relación circular lo que haría generar una especie de ciclo infinito. Árbol de entidades: Su jerarquía determina la prioridad y herencia de las configuraciones. Si un parámetro se cambia en una entidad hija, solo afecta a esa específicamente y a sus descendientes, sin afectar al padre. Política: Hace relación al proceso de definir un conjunto de opciones que se deben aplicar a un cliente, las políticas de viaj
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Estructura organizacional: Herencia y roles
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Herencia de configuraciones
+Contenido: El modelo se basa en la herencia de configuraciones. Si un acuerdo o una política se establece en la Entidad Padre, se aplica a todas las Entidades Hijas por defecto. Esto minimiza el esfuerzo de configuración y garantiza la coherencia global. Solo se configuran de forma local aquellos parámetros que deben ser específicos o diferentes en la entidad hija. En conclusión: Entidad Padre: Establece la configuración base (políticas, parámetros). Entidades Hijas: Heredan automáticamente las configuraciones de la Entidad Padre. Los ajustes pueden ser sobrescritos a nivel de la Entidad Hija si se requiere una configuración más específica. Herencia Multinivel. Al ser una estructura de N niveles, una configuración en nivel mas alto puede aplicar a todos los niveles inferiores, el comportamiento en una entidad inferior es cambiado solo cuando se sobre-escribe la configuración para una entidad especifica indicando que no asuma la configuración que exista en una entidad padre. Ilustración 1 Ejemplo de un posible arbol de entidades Ilustración 2 Ejemplo de una estructura Organizacional en una agencia que maneja diferentes areas
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Numero de aprobadores posibles
+Contenido: El sistema permite configurar flujos con múltiples niveles de aprobación, limitados según el rol o el nivel de la entidad. Es posible configurar aprobadores a cada nivel que se muestra en la imagen siguiente Ilustración 3 Representa la capacidad para asociar aprobadores a pasajeros, y/o CECO, y/o Entidad
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Asociación de pasajeros a centros de costos
+Contenido: La asignación de centros de costos a los pasajeros es flexible y controlable: Asociación Fija: El pasajero puede tener un único Centro de Costos fijo asignado a su perfil. Asociación Opcional: El pasajero tiene la capacidad de seleccionar el Centro de Costos que utilizará para el viaje específico al momento de la solicitud. Restricción: Es posible limitar al pasajero para que no pueda cambiar el Centro de Costos preasignado. Limitar los CECOS. Es posible definir la lista de CECOS que el viajero puede utilizar para sus solicitudes.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Asociación de pasajeros a políticas de viaje
+Contenido: Una entidad puede llegar a tener múltiples políticas, mas un viajero solo puede pertenecer a un conjunto de políticas, normalmente las organizaciones definen políticas como: Políticas para la alta dirección, políticas para el mando medio y políticas para el resto de la comunidad; existen otro tipo de organizaciones donde las políticas las definen como únicas y aplican para toda la comunidad(viajeros) de la entidad. La gestión de políticas en el perfil del viajero se rige por dos premisas clave: Política Principal: El viajero puede tener un solo tipo de política asociada a su perfil general. Políticas Detalladas: Este viajero puede estar asociado a varias políticas específicas por producto o servicio (ej. una política general, una diferente para hoteles, y otra específica para vuelos).
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Funcionamiento del Flujo de Aprobación
+Contenido: El flujo de aprobación es el mecanismo de control que garantiza que la reserva cumpla con las políticas corporativas antes de ser confirmada.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Parámetros generales
+Contenido: Para asegurar el correcto funcionamiento del flujo corporativo en la plataforma de un cliente, es imprescindible llevar a cabo una configuración inicial de parámetros esenciales. Esta configuración sienta las bases para la ejecución adecuada de todos los procesos transaccionales. La configuración inicial debe incluir los siguientes parámetros fundamentales que definen la operación básica del flujo corporativo. Sin embargo, para que el sistema opere acorde a las necesidades específicas de la compañía, es necesario agregar parámetros adicionales que se ajusten a las políticas internas y el flujo de autorización del cliente. Estos pueden incluir: Reglas de Aprobación: Definición de niveles jerárquicos y límites de gasto. Ejemplos como holdings o empresas que necesiten dividir la configuración en varias entidades o que se herede la configuración desde una entidad principal Para ello es necesario unos parámetros de configuración adicionales que permiten heredar o visualizar la información de una entidad principal a las entidades hijas o filiales. En resumen, el éxito radica en complementar la configuración básica con la personalización que refleje la operativa real de la organización. A
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Secuencia de Búsqueda del Aprobador
+Contenido: El sistema sigue un orden jerárquico para identificar al aprobador: Aprobador por Viajero: Al crear la reserva, el sistema verifica primero si el viajero tiene aprobadores asociados directamente a su perfil. Si existen, a estos se les envía la notificación de aprobación. Aprobador por Centro de Costo: Si no se encuentran aprobadores asociados directamente al viajero, la herramienta consulta si el viajero tiene aprobadores asignados a su Centro de Costo (CECO) y les envía la notificación. Aprobador por Entidad: Si no se encuentra un CECO o aprobadores específicos en los niveles anteriores, el sistema enviará la notificación de aprobación al aprobador general de la Entidad, si este existe. De lo contrario, en la entidad no existe flujo configurado.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Tipos de Flujo de Aprobación
+Contenido: KontrolTravel soporta tres tipos de flujos de aprobación para adaptarse a las necesidades de control de cada cliente: Flujo por Defecto o Cualquiera Aprueba: La solicitud queda aprobada tan pronto como cualquiera de los aprobadores definidos (en cualquier nivel) dé su visto bueno. Flujo Paralelo: Todos los aprobadores definidos deben aprobar la solicitud. El orden en que aprueban no es relevante; el sistema solo avanza a la emisión cuando la totalidad de los aprobadores ha dado su consentimiento. Flujo Secuencial: La aprobación se realiza en serie, respetando estrictamente el orden predefinido. Tan pronto como el primer aprobador aprueba, la notificación se envía al segundo; cuando el segundo aprueba, se envía al tercero, y así sucesivamente hasta que el último aprobador finaliza el flujo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Flujos alternativos
+Contenido: Los flujos alternativos son mecanismos adicionales de control que se activan bajo condiciones específicas (incumplimiento de política, destino sensible o perfil de viajero). Estos flujos añaden capas adicionales de aprobación o permiten la omisión del proceso estándar.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Flujo de Incumplimiento
+Contenido: El Flujo de Incumplimiento es un mecanismo de control que se activa automáticamente cuando una solicitud de viaje NO cumple con una o más políticas corporativas. Este flujo funciona de manera similar al Flujo Secuencial y está diseñado para garantizar que un superior o un auditor revise y autorice explícitamente la excepción.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Parámetros de configuración del flujo de incumplimiento
+Contenido: A continuación, se describen los parámetros necesarios para la configuración de este flujo alternativo, como se configuren depende del flujo que se desee: Características Principales: Configuración Específica: La herramienta permite configurar un máximo de un (1) aprobador dedicado al incumplimiento para viajes nacionales y un (1) aprobador dedicado para viajes internacionales. Comportamiento Normal (Cumplimiento): Si la solicitud cumple con todas las políticas de viaje, el flujo de aprobación opera de manera estándar, según la configuración previa (Secuencial, Paralelo o Cualquiera Aprueba). Comportamiento Alternativo (Incumplimiento): Cuando la solicitud incumple una política, el flujo de aprobación se reestructura según la configuración elegida, existiendo tres modalidades principales: Solo aprobador de Incumplimiento:
+Parámetro | Valor | Descripción | Explicación de valores
+USAFLUJOPARANOCUMPLIMIENTO | SN | Determina si se activa el flujo de aprobación de incumplimiento alternativo para solicitudes nacionales que incumplen las políticas. | Si se configura en S, se activa el flujo de no cumplimiento cuando no se cumplan una o varias políticas de viaje.Si se configura en N, no ac
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Flujo por Niveles
+Contenido: Esta funcionalidad permite la escalabilidad y diferenciación de la autoridad de aprobación basándose en el nivel jerárquico del aprobador.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Parámetros de configuración del flujo por niveles
+Contenido: Para el buen funcionamiento de este flujo es necesario el siguiente parámetro: Límite de Niveles: Es posible definir hasta tres (3) niveles de aprobación (Nivel 1, Nivel 2, Nivel 3). Configuración: Un solo aprobador puede tener un nivel asignado para viajes nacionales y un nivel diferente para viajes internacionales. Aplicación Exclusiva: Este flujo solo aplica cuando el flujo de aprobación principal es Secuencial.
+Parámetro | Valor | Descripción | Explicación de valores
+APROBACIONPORNIVELES | SN | Determina si la entidad aplicará un flujo de aprobación estructurado por niveles jerárquicos sucesivos. | Si se configura en S, indica que la entidad maneja el flujo de aprobación por niveles. La solicitud deberá ser autorizada de forma escalonada por los diferentes niveles de jerarquía configurados antes de proceder. Si se configura en N, desactiva esta funcionalidad, aplicando el flujo de aprobación estándar de la entidad si es que tiene.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Flujo por Destino
+Contenido: Esta funcionalidad es una herramienta de control geográfico que permite a las entidades segmentar y detallar sus flujos de aprobación basados en la ubicación del viaje. Es ideal para organizaciones que manejan mayor complejidad en sus esquemas de aprobación y requieren la intervención de Aprobadores específicos por regiones o de seguridad para destinos considerados sensibles o estratégicos. KontrolTravel cubre esta necesidad permitiendo asignar aprobadores únicos a países o ciudades específicas. Su implementación es sencilla, ya que la configuración solo requiere el conocimiento de los códigos ISO de los países o los códigos IATA de las ciudades, integrándose de la siguiente manera: Aprobadores específicos: Permite definir uno o varios aprobadores dedicados exclusivamente a los viajes con destino a una o varias ubicaciones configuradas. Control Estratégico: Facilita el cumplimiento de auditorías internas y normativas de seguridad al asegurar que los viajes a zonas de alto riesgo o estratégicas sean revisados por el personal autorizado. Activación Flexible: El flujo puede configurarse para activarse solo en caso de incumplimiento de políticas o para activarse siempre que se viaje al
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Parámetros de configuración del flujo por Destino
+Contenido: Parámetro | Valor | Descripción | Explicación de valores
+FLUJOXDESTINO | SN | Determina si la entidad activará la funcionalidad de asignar aprobadores específicos basados en el destino del viaje. | Si se configura en S, activa el flujo de aprobadores por destino (basado en códigos ISO/IATA).Si se configura en N, desactiva la funcionalidad
+FLUJONOCUMPLIMIENTOXDESTINO | SN | Indica si el sistema debe procesar las solicitudes a ciertos destinos bajo la lógica de un flujo de no cumplimiento. | Si se configura en S, los destinos configurados se manejan como una excepción de política, activando las reglas de no cumplimiento.Si se configura en N, se maneja como un flujo de destino estándar.
+FLUJONOCUMPLIMIENTOPOLITICAXDESTINO | SN | Define una condición de activación: el aprobador por destino solo interviene si además existe un incumplimiento de política. | Si se configura en S, se activa el flujo de aprobación por destino solo cuando se incumple una política. Si se configura en N, el aprobador por destino interviene siempre que se viaje a esa ubicación, cumpla o no la política.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Autoaprobación
+Contenido: Este método se define para simplificar el proceso para viajeros de alto rango o para aquellos que no requieren una supervisión transaccional continua. La configuración de este flujo no requiere de parámetros de configuración, si no de la política de viajes general, en la cual se encuentran las condiciones para parametrizar la autoaprobación. Definición de Perfil: Se asigna a aquellos viajeros que, por su rol o nivel de gasto, no necesitan pasar por un flujo de aprobación estándar. Modalidades de Configuración: Autoaprobación Condicional: La solicitud queda automáticamente aprobada solo si cumple con todas sus políticas de viaje. Si incumple, pasa al flujo de aprobación normal (o al Flujo de Incumplimiento, si está configurado). Autoaprobación Incondicional: La solicitud queda siempre aprobada, independientemente de si cumple o no con las políticas de viaje.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Políticas de viaje
+Contenido: Las políticas de viaje representan las regla o normativas internas de la entidad o cliente que son aplicables dentro del sistema. La plataforma está diseñada para aplicar estas políticas filtrando opciones y activando los flujos de aprobación de acuerdo con la configuración deseada. Las políticas tienen diversas reglas posibles a configurar, permitiendo a los gestores un control sobre cada aspecto de la reserva de viaje.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Generalidades de las políticas
+Contenido: Las políticas se clasifican según su impacto en el flujo de la solicitud y según su ámbito de aplicación. Son aquellas políticas en donde el sistema notifica al usuario sobre el incumplimiento. El solicitante debe justificar el motivo del incumplimiento (Motivo de Incumplimiento y Justificación) para poder proceder con la solicitud. Son aquellas políticas que si se incumplen el sistema no permite continuar con la solicitud de reserva Las políticas se configuran a nivel superior y aplican a toda la entidad o a la totalidad de los pasajeros asociados a la compañía, garantizando una base común de cumplimiento. Permite una configuración de reglas más detallada y segmentada. Es posible asociar políticas específicas a un grupo particular de viajeros (ej. Directivos) o a un único pasajero determinado, prevaleciendo sobre la política general. KontrolTravel ofrece módulos especializados para configurar reglas detalladas según el producto o el criterio geográfico:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Política General
+Contenido: La Política General de Viajes funciona de manera global para la gestión inicial de todas las solicitudes dentro de KontrolTravel. Sus reglas aplican de manera transversal a casi todos los productos y servicios (vuelos, hotel, autos, etc.) y establecen los criterios fundamentales para la antelación de las reservas, la capacidad de autogestión y la definición de la autoaprobación. Esta política es indispensable, ya que no solo establece reglas de cumplimiento, sino que también asocia otras políticas especiales (como la Política por Destino y el Perfil de Viáticos) para que estas funcionalidades puedan operar correctamente. Generalidades y Alcance Aplicación Multiproducto: La mayoría de las reglas configuradas en la Política General aplican igual para todos los productos de viaje. Gestión de Perfiles: Permite clasificar el nivel de autonomía del usuario, definiendo si puede realizar autogestión (solo reservar para sí mismo) o si actúa como coordinador de viajes (reservando para otros funcionarios). Reglas de Alto Nivel: Posee reglas clave para la Autoaprobación, permitiendo que ciertos perfiles de viajeros (directivos) eviten el flujo de aprobación estándar, ya sea de forma incondicio
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Política de Vuelos
+Contenido: La Política de Vuelos es el conjunto de reglas específicas diseñado para controlar y estandarizar la selección de servicios aéreos. Su función principal es: garantizar el ahorro corporativo al enfocar la selección en las tarifas más económicas, y proteger el bienestar del viajero al considerar condiciones como la duración del trayecto para permitir clases superiores. Esta política se enfoca en evaluar la tarifa más económica disponible y permite definir restricciones basadas en el tipo de cabina y la ruta del viaje, asegurando que el gasto aéreo se mantenga dentro de los límites predefinidos por la entidad. Generalidades y Alcance Foco en la Economía: Está centralizada en la evaluación de la tarifa más económica y la restricción a ciertas clases de familia tarifaria. Regulación de Clase de Viaje: Permite definir reglas para la mejora de cabina, por ejemplo, si se permite viajar en clase ejecutiva cuando los vuelos superan un periodo considerable de duración. Control Geográfico: Es posible definir si el perfil de viajero o la entidad permite la reserva de vuelos internacionales o solo nacionales.
+Campo de Configuración | Descripción y Opciones de Uso
+Clase Viaje | Establece el tipo 
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Política de Hoteles
+Contenido: La Política de Hoteles es el conjunto de reglas diseñado para controlar y estandarizar el gasto en alojamiento, asegurando que las opciones de hospedaje se alineen con el presupuesto y el perfil del viajero. Esta política opera principalmente filtrando los resultados de búsqueda para presentar opciones que cumplan con criterios preestablecidos de calidad y costo. Generalidades y Alcance Filtro por Perfil y Calidad: La función central es filtrar los resultados en base al número de estrellas del hotel. Esto garantiza que el sistema muestre al solicitante solo las opciones de alojamiento que son adecuadas para su perfil y política asignada. Esta regla de filtro aplica tanto para reservas de hoteles online (disponibilidad en línea) como para solicitudes offline (gestión por parte de la agencia). Control de Presupuesto: Permite establecer límites de gasto por noche de estadía, lo que es esencial para controlar los costos de alojamiento. Límite de Estadía: Ofrece la posibilidad de restringir el número máximo de noches permitidas para una única estadía.
+Campo de Configuración | Descripción y Opciones de Uso
+Número de Estrellas | Se registra el número máximo de estrellas permitidas (de 1 a
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Política de Autos
+Contenido: La Política de Autos es el conjunto de reglas diseñado para controlar el gasto en alquiler de vehículos y estandarizar el tipo de flota utilizada por los viajeros corporativos. Su propósito es: filtrar la disponibilidad según la categoría de vehículo autorizada para el perfil del viajero y regular el monto máximo diario de arrendamiento, al tiempo que establece las directrices sobre la cobertura de seguros. Generalidades y Alcance Filtro por Tipo de Vehículo: El enfoque principal es mostrar los autos disponibles que cumplen con la categoría o tipo de vehículo configurado en la regla (ej. Solo Economy o Compact), alineando la flota alquilada con las normativas internas. Control de Presupuesto Diario: Permite establecer y regular el monto máximo por día de arrendamiento. Seguros Incluidos: Permite definir si la política debe incluir coberturas esenciales como los seguros CDW/LDW. Límite de Tiempo: Posibilita restringir la duración máxima del período de arrendamiento.
+Campo de Configuración | Descripción y Opciones de Uso
+Tipos de Autos | Se selecciona la categoría o categorías de vehículos que aplican a la regla (ej. Economy, Compact, Standard, Fullsize, MiniVan, etc.). El sistema so
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Política por Destino
+Contenido: Las Políticas por Destino son una funcionalidad avanzada que permite a las entidades aplicar reglas de gasto y servicio específicas y geográficamente segmentadas que priman sobre las políticas generales. Esto es importante para las empresas que manejan mercados de alto costo o para proyectos con presupuestos predefinidos en ubicaciones concretas. La política configurada aplica de forma única y exclusiva para los destinos para los cuales se establece. Generalidades y Aplicación Servicios Aplicables: Las políticas por destino aplican actualmente para los servicios de Vuelos y Hoteles. Alcance Único: La política configurada se aplica de forma única y exclusiva a las ciudades o rutas para las cuales se configura, permitiendo una diversidad de reglas a destinos específicos. Mecanismo de Incumplimiento: El sistema evalúa el incumplimiento cuando el monto del vuelo o del hotel solicitado sobrepasa el valor tope registrado en la regla para ese destino específico. Aplicación de política: Para que una Política por Destino sea funcional, debe estar necesariamente asociada a la Política General de Viajes del cliente. Esto asegura que la regla se integre y sea evaluada dentro del flujo corporat
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Destinos Bloqueados
+Contenido: La funcionalidad de Destinos Bloqueados es un mecanismo de control de riesgo y restricción de búsqueda que permite a las entidades prohibir o advertir sobre viajes a ubicaciones geográficas específicas. A diferencia de las políticas de viaje que rigen el gasto, esta herramienta se enfoca en la restricción previa a la reserva basada en reglamentos internos, seguridad, o requisitos documentales (visados, vacunas). Generalidades y Aplicación Los destinos bloqueados aplican actualmente para los servicios de Vuelos y Hoteles. Aunque forma parte del flujo corporativo, esta funcionalidad no está asociada directamente a las Políticas de Viaje. Es una medida de cumplimiento reglamentario y de seguridad para restringir búsquedas o alertar sobre requisitos. Es posible usar esta funcionalidad para alertar sobre destinos que requieren documentación especial (ej. "USA necesita visa") o información crítica que el viajero debe considerar antes de iniciar la solicitud de viaje. El comportamiento depende de la configuración del mensaje: Si es Informativo, el sistema mostrará el mensaje de alerta al usuario y lo dejará continuar con la solicitud. Si es Restrictivo, mostrará la alerta y no permitirá c
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Aprobación Masiva
+Contenido: La funcionalidad de Aprobación Masiva, la funcionalidad de "Aprobación Masiva" ha sido diseñada para agilizar el proceso de gestión de solicitudes de reserva. En lugar de aprobar cada reserva de forma individual, esta herramienta permite a los aprobadores autorizados revisar y aprobar múltiples solicitudes pendientes en un solo paso, mejorando la eficiencia operativa y reduciendo los tiempos de respuesta.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Requisitos de Acceso a la Funcionalidad
+Contenido: La opción de Aprobación Masiva solo estará visible y disponible para los usuarios que cumplan con dos condiciones: Permiso Habilitado en el Perfil: El administrador del sistema debe haber habilitado explícitamente el permiso de "Aprobación Masiva" en su perfil de usuario. Rol de Aprobador: El usuario debe estar configurado como un aprobador dentro de la estructura corporativa del sistema. Si no cumple con ambas condiciones, no verá la opción de Aprobación Masiva en su menú de navegación. Acceder a la Funcionalidad En el menú principal o en el panel de control, estará la opción "Aprobación Masiva de Reservas”
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Aprobador en licencia/Vacaciones
+Contenido: La funcionalidad de Aprobador en Vacaciones es una herramienta esencial para asegurar la continuidad ininterrumpida del flujo de aprobación corporativo. Su propósito es permitir al personal clave (Aprobadores) designar de manera proactiva a un aprobador de reemplazo que asuma su responsabilidad durante periodos de ausencia programada (vacaciones, licencias, etc.). Al activar esta delegación, las notificaciones y la potestad de decisión sobre las solicitudes de reserva se redirigen automáticamente al sustituto, evitando cuellos de botella y demoras en el proceso de viaje.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Configuración del Aprobador de Vacaciones
+Contenido: El formulario de configuración es la interfaz principal para que los administradores y gestores puedan definir y gestionar los períodos de ausencia de los aprobadores. Automatización y Gestión por Robots La transición de estados (P a V y V a R) se realiza de forma automática mediante tareas programadas (robots), garantizando la precisión temporal de la delegación. Lógica de Activación: El robot de activación revisa los registros en estado P cuya "Fecha Inicial" se encuentre en un rango que incluye la fecha actual y los dos días previos (FechaHoy - 2 días y FechaHoy). Ejecución Manual de Robots (Para Administradores) La plataforma permite a los usuarios administradores forzar la ejecución de los robots fuera del horario programado para aplicar cambios de estado de manera inmediata en caso de emergencias o correcciones:
+Campo de Configuración | Descripción
+Entidad | Permite seleccionar el cliente/empresa específica al que se aplicará la configuración de vacaciones.
+Aprobador Configurado Actual | Usuario aprobador principal que será temporalmente reemplazado durante el período especificado.
+Aprobador Configurado de Reemplazo | Usuario aprobador que asumirá las responsabilidades de apr
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Aprobadores por centro de costo y pasajeros
+Contenido: Esta funcionalidad permite un control especializado del flujo de autorización. A diferencia de un esquema general, esta herramienta faculta a la entidad para designar aprobadores exclusivos según el Centro de Costo o directamente vinculados a un pasajero específico, garantizando que el presupuesto sea validado por el responsable directo de dicha partida. Parámetro de configuración
+Parámetro | Valor | Descripción | Explicación de valores
+APROBADORESLISTAXCECO | S,N | Permite una gestión independiente y filtrada de la lista de aprobadores basada en el Centro de Costo o el Pasajero seleccionado. | Si se configura en S, el sistema activa el uso de una tabla de asociaciones adicional (alimentada desde el módulo de Validadores Específicos). Esto garantiza que, al momento de la reserva, solo se muestren para selección los aprobadores vinculados específicamente a ese centro de costo o pasajero.Si se configura en N, la entidad utiliza el flujo de aprobación general sin aplicar filtros por centro de costo o viajero.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Configuración de los aprobadores por Centro de Costo y Pasajero
+Contenido: La administración de estas asociaciones se realiza a través de la ruta: 2- Admin Backend / Otros / Validadores específicos. Este módulo es la interfaz donde el gestor alimenta la base de datos de aprobaciones personalizadas. Descripción de los campos de configuración
+Campo | Función en la Configuración
+Tipo de viaje | Define si el aprobador específico aplica para trayectos Nacionales, Internacionales o ambos.
+Tipo cálculo | Determina la lógica de evaluación que el sistema aplicará, en este caso puede ser por: C – Centro de Costo o P - Pasajero
+Cod Ceco | Permite seleccionar el Centro de Costo específico que quedará vinculado al aprobador.
+Usuario aprobador | Selecciona al aprobador que autorizará las solicitudes bajo las políticas definidas.
+Cod Entidad | Identifica la empresa o cliente a la que pertenece esta regla.
+Cod Usuario viajero | Permite asignar un aprobador a un pasajero en particular, cuando el tipo de cálculo es por viajero.
+Orden | Establece la posición jerárquica que ocupa este aprobador dentro del flujo (1, 2, etc.).
+Estado | Indica si la regla de validación específica se encuentra Activa o Inactiva.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Validación avanzada de políticas vía JSON
+Contenido: Esta funcionalidad permite un control de manera específica en los flujos cuando se incumplen las políticas. A diferencia de las reglas estándar que detectan un incumplimiento general, estos parámetros permiten a la entidad seleccionar específicamente cuáles reglas de la política deben activar el flujo de aprobación por excepción, basándose en la evaluación técnica de datos (JSON) generada por el sistema. Parametros de configuración
+Parámetro | Valor | Descripción | Explicación de Valores
+POLITICAVALIDARDEJSON | S, N | Indica si el sistema debe realizar la validación detallada a partir del JSON de análisis de políticas. | Si se configura en S, activa la revisión específica de la lista de políticas definidas. Si se configura en N, el sistema ignora el análisis detallado y aplica el flujo de no cumplimiento estándar.
+POLITICAVALIDARDEJSONLISTA | Texto (Lista) | Define la lista de políticas específicas que, al ser incumplidas, activarán el flujo de no cumplimiento. | Se debe ingresar una lista separada por comas con los nombres exactos de las variables técnicas. Nota: Esta configuración es estrictamente sensible a mayúsculas y minúsculas.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Políticas Disponibles para Análisis
+Contenido: Para que la configuración sea efectiva, los nombres en la lista deben coincidir exactamente con los siguientes identificadores: diasantservicioG: Número de días de antelación para viajes nacionales. diasantserviciointerG: Número de días de antelación para viajes internacionales. numserviciosmesG: Límite de servicios permitidos por mes. valoraprobservicioG: Monto a partir del cual se considera incumplimiento en nacional. valoraprobserviciointerG: Monto a partir del cual se considera incumplimiento en internacional.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Notificaciones Automáticas de Reservas Aprobadas (Robot de Auditoría)
+Contenido: Esta funcionalidad está diseñada para proporcionar una visibilidad consolidada de la información de solicitudes realizadas en KontrolTravel al cliente. Consiste en la ejecución de un proceso automático (robot) que recopila todas las reservas que han sido aprobadas durante el día y envía un resumen detallado a los destinatarios configurados. Este reporte es complementario a las notificaciones transaccionales enviadas en el flujo de aprobación. Su propósito es servir como una auditoría diaria para el control administrativo de la entidad de las solicitudes aprobadas. Parametros de configuración Ejemplo de notificación enviada: El correo electrónico incluye el listado de todas las reservas cuyo estado cambió a "Aprobado" desde la última ejecución. El reporte enviado incluye información como la fecha y hora de solicitud, fecha de aprobación, los aprobadores, entre otra información:
+Parámetro | Valor | Descripción | Explicación de Valores
+ACTIVA_ROBOT_INFOAPROBADAS | S o N + A o N o I (Ej: S,A) | Determina si se activa el envío automático del reporte y define el ámbito geográfico de los viajes a incluir.El sistema realiza el envío de manera automática todos los días a las 6:00 PM. | S / 
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: FlujoCorporativoKT
+Sección: Preguntas frecuentes
+Contenido: Esta sección responde a las dudas más comunes sobre la terminología, la estructura y el funcionamiento de las políticas y los flujos de aprobación en KontrolTravel . Si soy un viajero, ¿qué aprueba primero: mi aprobador directo o el de mi Centro de Costo (CECO)? R/ El sistema prioriza al aprobador más específico. Primero busca al aprobador asociado a su perfil de viajero. Si no lo encuentra, consulta al aprobador de su Centro de Costo (CECO), y finalmente, al de la Entidad. ¿Cuál es la diferencia principal entre una Política Restrictiva y una Informativa? R/ La Restrictiva bloquea la solicitud inmediatamente si se incumple, impidiendo que el usuario continúe. La Informativa permite continuar con la solicitud, pero exige al usuario registrar un Motivo y Justificación de Incumplimiento. ¿Por qué un aprobador podría no lograr aprobar la reserva (ni por link ni por sistema)?
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/02_flujocorporativokt.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: Precios Más Ec onómicos
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
 
-Título: Manual de UDIDS (1)
-Tipo: DOCX
-Descripción: Manual de UdidsDocumento guíaIdeas Fractal SASPereira, ColombiaManual de UdidsDocumento guíaIdeas Fractal SASPereira, Colombia
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Fecha Autor Descripcion Revisado Por Versión
+Contenido: 08/01/2026 Estefanya Arcila Documento Guía Heney Salazar 1.0
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: El módulo de Ventana de Precios Más Económicos tiene como objetivo ayudar al usuario a identificar opciones de vuelo más económicas en relación con el vuelo que ha seleccionado, sin perder de vista las condiciones tarifarias que este eligió originalmente. Este módulo busca mejorar la experiencia de compra, permitiendo: • Comparar precios de manera clara y transparente. • Visualizar posibles ahorros.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 1. Principio de comparación justa
+Contenido: No todas las tarifas aéreas ofrecen las mismas condiciones. Algunas incluyen equipaje en bodega, otras solo morral; algunas permiten cambios, otras no. Por este motivo, el sistema está diseñado para: • Evitar comparaciones incorrectas entre tarifas con condiciones muy diferentes. • Garantizar que los vuelos sugeridos como “más económicos” sean comparables con el vuelo seleccionado.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 2. Familias tarifarias y su variabilidad
+Contenido: Las aerolíneas definen sus propias familias tarifarias (por ejemplo: LIGHT, BASIC, FULL, PREMIUM). Sin embargo: • Los nombres de las familias no son estándar. • Un mismo tipo de tarifa puede tener nombres distintos según: o El proveedor de información (Amadeus, Sabre, NDC directo, etc.). Por esta razón, el sistema permite que cada agencia configure sus propios grupos de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 3. Enfoque en la experiencia del usuario
+Contenido: El módulo está diseñado para mostrar solo la información necesaria en cada escenario: • En su versión simple, presenta alternativas económicas de forma directa. • En su versión avanzada, ofrece:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: o Detalle del ahorro. o Identificación de la familia tarifaria. o Selección directa del vuelo más económico. Esto permite al usuario: • Comprender rápidamente las diferencias de precio. • Tomar decisiones informadas.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 4. Flexibilidad mediante configuración
+Contenido: El comportamiento del módulo se controla completamente a través de parámetros, lo • Activar o desactivar la funcionalidad. • Definir cuántas opciones económicas mostrar. • Establecer reglas de comparación entre tarifas. Gracias a esta flexibilidad, el módulo puede adaptarse a: • Políticas comerciales de la agencia.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 5. Alcance funcional
+Contenido: Este flujo está pensado principalmente para: • Vuelos nacionales, donde la cantidad de familias tarifarias es más controlada. En vuelos internacionales: • La funcionalidad puede operar.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • No se recomienda su uso intensivo debido a la alta diversidad de aerolíneas y
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 6. Beneficios clave
+Contenido: • Mayor transparencia en la comparación de precios. • Mejora en la conversión de ventas. • Reducción de errores de comparación. • Experiencia de usuario más clara y consistente.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: Este módulo permite informar y sugerir al usuario vuelos más económicos en comparación con el vuelo que ha seleccionado, mostrando una ventana con opciones alternativas según diferentes criterios de configuración. El sistema cuenta con: • Una ventana simple (modo anterior). • Una ventana nueva y personalizable, con mayor nivel de detalle y posibilidad de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: Parámetros de configuración Parámetro: VERIFICASVUELOSMASECONOMICOS • Descripción: Controla si se muestra o no la ventana de precios más económicos y qué tipo de ventana se utiliza. • Valores soportados: Activa la ventana simple (funcionamiento anterior). Muestra de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: S
+Contenido: forma básica los vuelos más económicos. Activa la nueva ventana avanzada con más información y opción de
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: C
+Contenido: selección directa del vuelo. N o X Desactiva completamente la ventana de precios económicos. • VERIFICASVUELOSMASECONOMICOS = S → Muestra la ventana simple. • VERIFICASVUELOSMASECONOMICOS = C → Muestra la ventana avanzada. • VERIFICASVUELOSMASECONOMICOS = N → No se muestra ventana. Parámetro: LIMITEOPCIONESPRECIOSBAJOS
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: 2 Muestra los dos vuelos más económicos.
+Contenido: N Muestra hasta N opciones económicas.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • LIMITEOPCIONESPRECIOSBAJOS = 2 → Resultado: se mostrarán máximo 2 vuelos más económicos en la ventana. Parámetro: COMBINACIONFAMILIESVENTANAPRECIOSECONOMICOS • Descripción: Permite agrupar familias tarifarias para que la comparación de precios se realice solo entre tarifas equivalentes, aunque tengan nombres distintos según aerolínea o proveedor (source).
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: Familia duplicada en varios grupos Puede generar comparaciones incorrectas Familia no configurada Se pierde la comparación por equivalencia Formato incorrecto Formato incorrecto
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Standard
+Contenido: Fuente Aerolinea Familia
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Standard Qs
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Estandar G1
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Standard Qs
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Estandar G1
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Basic Zo
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Basico Ts,Lr
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Premium Economy Premium Economy
+Contenido: Latam STANDARD STANDARD
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Light Light
+Contenido: Amadeus CLASSIC CLASSIC
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • Al tratarse de un parámetro de valor abierto, es necesario que su configuración no contenga espacios ni saltos de línea. Aunque en los ejemplos se presenta el valor dividido en varias líneas con fines ilustrativos, al momento de configurar el parámetro en una entidad este debe ingresarse como un único texto continuo, sin espacios intermedios ni saltos de línea, para garantizar su correcto Parámetro:TOLERANCIAHORASPRECIOBAJONAL / TOLERANCIAHORASPRECIOBAJOINTER
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: • Toleranciahoraspreciobajointer = 4
+Contenido: Caso 1: Vuelo nacional Colombia • Vuelo seleccionado: o Hora de salida: 11:00 • Parámetro aplicado: TOLERANCIAHORASPRECIOBAJONAL = 2 Rango horario evaluado El sistema solo evaluará y mostrará como vuelos más económicos aquellos vuelos BOG–
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • Descripción: Define si la tolerancia horaria configurada para vuelos nacionales o internacionales se debe aplicar también a las secciones visibles del e-ticket, además del flujo principal de selección. Aplica a las siguientes secciones: • Opciones de vuelos más económicos. • Otras opciones de vuelos.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: S
+Contenido: N La tolerancia horaria solo se aplica durante la selección inicial del vuelo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: • Forzartoleranciahoraspreciobajoeticket = S
+Contenido: Resultado: Las opciones mostradas en el e-ticket respetan el mismo rango horario definido por los parámetros de tolerancia. Funcionamiento según configuración Con familias configuradas • El sistema identifica el grupo de la familia seleccionada. • Solo compara vuelos dentro del mismo grupo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: Sin configurar familias • El sistema compara contra el vuelo más económico, sin importar la familia. • Puede sugerir tarifas con condiciones inferiores. • Usuario selecciona tarifa FULL. • El sistema sugiere una tarifa LIGHT más barata. Ventanas de Precios Económicos (Ventana simple)
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • Opciones de vuelos de ida • Opciones de vuelos de regreso Ventanas de Precios Económicos (Nueva ventana personalizable) Activación: VERIFICASVUELOSMASECONOMICOS = C
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • Permite seleccionar directamente el vuelo más económico. • Respeta: Límite de opciones (LIMITEOPCIONESPRECIOSBAJOS) y parámetro
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: (Combinacionfamiliesventanaprecioseconomicos)
+Contenido: Al confirmar la reserva, esta información podrá visualizarse tanto en el detalle de la reserva dentro de la plataforma como en el correo de confirmación, tal como se muestra en las siguientes imágenes: • Detalle de la reserva
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • Detalle del correo electrónico • ¿Qué ocurre si no se configuran las familias tarifarias? El sistema comparará el vuelo seleccionado contra el vuelo más económico disponible, sin validar equivalencia de condiciones, lo que puede generar comparaciones con tarifas de menor nivel. • ¿La ventana de precios más económicos es obligatoria?
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Verificasvuelosmaseconomicos.
+Contenido: • ¿La tolerancia horaria aplica siempre? Solo aplica si los parámetros TOLERANCIAHORASPRECIOBAJONAL o TOLERANCIAHORASPRECIOBAJOINTER están configurados. De lo contrario, no se restringe el rango horario. • ¿Puedo usar valores distintos de tolerancia horaria para vuelos nacionales e Sí. Ambos parámetros funcionan de la misma forma, pero permiten definir rangos
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual Ventana de Precios (1) (1)
+Sección: Ideas Fractal
+Contenido: • ¿Qué sucede si configuro un valor fuera del rango permitido (1 a 24)? El sistema considerará la configuración como inválida y no aplicará la tolerancia • ¿La tolerancia horaria también aplica al e-ticket? Solo si el parámetro FORZARTOLERANCIAHORASPRECIOBAJOETICKET está
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/03_manual-ventana-de-precios-1-1.html
+
+Documento: Manual de UDIDS (1)
+Contenido: Manual de UdidsDocumento guíaIdeas Fractal SASPereira, ColombiaManual de UdidsDocumento guíaIdeas Fractal SASPereira, Colombia
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
 
-Título: REEMISIÓN RESERVAS
-Tipo: DOCX
-Descripción: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias, se pone a disposición la funcionalidad de reemisión de reservas permite realizar modificaciones de fechas y/o rutas sobre reservas previamente 
+Documento: Manual de UDIDS (1)
+Sección: Control de versiones
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+17/12/25 | Estefanya Arcila | Documento Guía | Herney Salazar | 1.0
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Introducción
+Contenido: Este documento es una Guía de Campos Gerenciales (UDID) diseñada para profundizar en la configuración, uso y explotación de los UDID dentro de la plataforma. Administradores del sistema. Consultores de implementación. Equipos de soporte y operación. Usuarios avanzados que gestionan reglas de documentación. El objetivo principal es proporcionar un entendimiento claro y estructurado sobre:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Fundamentos
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Conceptos
+Contenido: Udid o campo gerencial: Es la manera de llamar a campos dinámicos que se registran de manera manual o automática al momento de realizar la solicitud de reserva. Esta información es de vital importancia para los clientes en sus procesos de facturación, de reserva, para información organizacional, informes, indicadores, entre otros. Campos Abiertos: UDID visibles en el formulario de reserva. El usuario (asesor o cliente) ingresa manualmente la información. Estos valores pueden enviarse como Remark en el PNR. Campos Ocultos o Variables de Reemplazo UDID no visibles para el usuario.Su contenido se llena automáticamente a partir de variables internas (pasajero, entidad, reserva, aprobador, viáticos, etc.) y se documenta vía Remark al confirmar la reserva. Alias del Campo Nombre visible para el usuario en el formulario de reserva.Puede tener espacios, acentos y caracteres especiales. No afecta la lógica interna. Nombre del Campo Identificador técnico del UDID. No puede contener espacios, signos especiales (*) ni acentos. Es el nombre utilizado por el sistema para guardar y procesar el campo. Remark Texto que se envía al PNR a través del GDS/NDC. Los UDID pueden usar Remark para documenta
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Parámetros generales
+Contenido: Para habilitar y controlar el uso de UDID a nivel de entidad, se emplean parámetros específicos, estos parámetros permitirán tanto que el sistema tenga udids como que estos cumplan con sus tareas específicas: Los parámetros pueden ser configurados desde el componente de gestor, accediendo a la siguiente ruta del sistema: Admin Backend → Configuración de Parámetros → Configuración General → Parámetros Corporativos
+Parámetro | Valor | Descripción
+SHOWUDIDS | SN | Se configura en S para mostrar la sección de los udids o campos gerenciales en el formulario de reserva.
+MANEJAUDIDS | SN | Se configura en S para indicar que la entidad va a manejar campos gerenciales.
+CHANGEUDIDS | SN | Controla si los UDID pueden modificarse después de confirmada la reserva.
+HEREDARUDIDSPADRE | SN | Este parámetro se encarga de mostrar los udids que están creados en la entidad que corresponde a la configurada en el parámetro CODENTIDADHEREDAUDIDS. Es decir, si se configura en S en la entidad hija o filial, se podrán visualizar los udids para su transacción
+CODENTIDADHEREDAUDIDS | Cod entidad | Especifica el código de la entidad de la cual se heredarán los UDID.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Estructura organizacional: Herencia de Udids
+Contenido: La gestión de UDID se integra a la estructura organizacional del sistema: La Entidad Padre actúa como el modelo base de configuración de UDID dentro de la organización. En ella se definen los elementos comunes que deben compartirse entre las distintas entidades del grupo, tales como: Campos asociados a cada UDID Remarks u observaciones estándar Esta configuración sirve como una línea base corporativa, asegurando consistencia y estandarización en el uso de UDID. Las Entidades Hijas son aquellas que dependen jerárquicamente de una Entidad Padre (o de otra entidad previamente definida) y pueden reutilizar su configuración de UDID.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Generalidades de los UDID
+Contenido: Los UDID (Identificadores Únicos) son campos que permiten personalizar las necesidades específicas de un cliente. Los UDID pueden ser de dos tipos: Campos abiertos: Son utilizados para ingresar información durante el proceso de reserva y pueden ser enviados como RM. Campos ocultos o variables de reemplazo: Se utilizan para enviar información como RM al confirmar la reserva. Estos campos no se ingresan manualmente en la reserva, sino que se capturan automáticamente a partir de datos específicos del pasajero, la entidad, los centros de costo o la reserva. Algunas características generales para cualquiera de los dos tipos de UDID son: Todo campo gerencial (UDID) requiere un grupo de campos de referencia. Se recomienda crear primero el grupo y luego el campo para evitar reprocesos, ya que un campo no puede existir sin un grupo asociado. Todo campo gerencial (UDID) debe ser creado con un nombre que no contenga signos (*) ni espacios, y debe tener un alias (nombre que se verá en el proceso de reserva). Un campo que no cumpla con estas características no podrá ser guardado.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Configuración de Udids paso a paso
+Contenido: Para configurar o editar un UDID, selecciona la opción Listar. Esto despliega un formulario con tres filtros principales: Cód. Entidad, Nombre, y Estado, que permiten seleccionar fácilmente la entidad deseada. Una vez identificada la entidad principal, haz doble clic en el nombre de la entidad para acceder al formulario de configuración o edición de UDID
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Creación de grupos de campos de referencia.
+Contenido: Como primer paso, se recomienda crear primero el grupo. Esto permitirá que, al momento de relacionar los UDIDs, el registro ya exista y se pueda guardar correctamente, para agregar un grupo se debe dar clic el símbolo de adicionar “+”. A continuación, se detallan los campos y la información que debe ingresarse en cada uno. Nombre del Grupo: Corresponde al nombre asignado al grupo para su identificación dentro del sistema. Etiqueta del Grupo: Representa el nombre con el que se mostrará el campo en el formulario de reserva, facilitando su reconocimiento para los usuarios. Descripción: Permite ingresar un detalle explicativo sobre la finalidad del grupo y su uso dentro del sistema. Nacional o Internacional: Define en qué tipo de rutas se mostrarán y aplicarán los campos asociados al grupo. Puede configurarse para que apliquen en todas las rutas, únicamente en rutas nacionales o solo en rutas internacionales.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Creación de campos UDIDS
+Contenido: El segundo paso consiste en crear los campos gerenciales o UDIDS. Para ello, debemos ubicarnos en la ventana de "Campos Gerenciales" y hacer clic en el símbolo de adicionar "+". A continuación, se detallan los campos y la información que debe ingresarse en cada uno. Configuración de Campos Adicionales Nombre del Campo: Nombre interno con el que se identificará el campo creado. No debe contener espacios, símbolos ni signos de acentuación. Alias: Nombre con el que aparecerá en el formulario de la reserva. Puede incluir espacios, signos de puntuación y acentuación, ya que es visible para el usuario. Tipo de Dato: Define el tipo de dato del campo (numérico, alfanumérico, fecha o memo). El sistema validará que solo se ingresen datos del tipo especificado.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Campos ocultos o variables de reemplazo
+Contenido: Además de lo explicado previamente, a continuación, se detalla la funcionalidad que permite la creación de Udids con variables de reemplazo. Estas variables pueden utilizarse para documentar las reservas dentro de los remarks. Para garantizar la correcta documentación de las reservas con diferentes remarks, es importante tener en cuenta los siguientes campos: Remark: Prefijo con el que se registrará en el PNR de la reserva. Debe ingresarse sin el comando del GDS. Visibilidad: Para esta funcionalidad, la opción debe estar configurada como NO VISIBLE. Grupo de Campo: Es indispensable asignar el Udid a un grupo para que se refleje correctamente en el PNR de la reserva. Defecto: Campo de tipo texto en el que se deben diligenciar las variables de reemplazo. Variables de Cliente y Entidad
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Otros tipos de Variables.
+Contenido: Estas variables capturan datos específicos para la documentación de reservas en remarks, pero se configuran como parámetros de entidad.
+Parámetro de Entidad | Variable | Descripción
+Remark emisiones CO2 | {VALUE} {UNIT} | Captura datos de emisiones de CO₂ en el GDS.Ejemplo de configuración: CO2/{VALUE}/{UNIT}
+Remark millas voladas | {MILES} | Captura información de millas voladas en GDS.Ejemplo de configuración: MIL/{MILES}
+Remark Loc interno | {LOCINTERNO} | Captura el LOC Interno en GDS (solo después de la aprobación).Ejemplo de configuración: LOC*{LOCINTERNO}
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Configuración y Edición Listas Udids
+Contenido: El módulo de listas se divide en dos pasos: Crear la lista: Este es el contenedor que almacenará los valores a mostrar en el formulario de reserva. Agregar los registros: Una vez creada la lista, se deben ingresar cada uno de los valores que formarán parte de ella. Teniendo esto en cuenta, comenzaremos por crear la lista. Código Interno: Código generado automáticamente al guardar la nueva lista. Entidad: Permite seleccionar la entidad a la que se asignará la lista de valores.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Validación de Variables en el Formulario de Reserva
+Contenido: La correcta configuración de los UDIDs, las variables de reemplazo y las listas de valores debe validarse siempre desde el formulario de reserva, ya que este es el punto donde el sistema evalúa y presenta la información al usuario final. Antes de considerar una configuración como productiva, se recomienda realizar una validación funcional completa que garantice que los campos se visualizan, se comportan y se documentan conforme a lo esperado.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Validación de Variables de Reemplazo
+Contenido: Para confirmar que una variable de reemplazo se encuentra correctamente configurada, se deben validar los siguientes aspectos: Visibilidad del campo El UDID debe estar configurado como NO VISIBLE. Si el campo aparece en el formulario de reserva, significa que la variable fue configurada como campo abierto y no como campo oculto. Grupo de campos activo El campo debe pertenecer a un grupo:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Validación de Campos con Lista de Valores
+Contenido: Cuando un UDID utiliza listas de valores, la validación debe enfocarse en la visualización y comportamiento del campo dentro del formulario de reserva. Los puntos para validar son: Uso correcto de la lista El campo debe tener configurado: Una lista seleccionada correctamente desde el módulo de Listas de Valores. Visualización en el formulario En el formulario de reserva, el campo debe mostrarse como:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Validación según Políticas y Contexto del Flujo
+Contenido: Adicionalmente, se debe validar que los UDID aparezcan únicamente cuando corresponde: Según cumplimiento de políticas Si está configurado como “Cuando Cumple Políticas”, debe aparecer solo en reservas que cumplen políticas. Si está configurado como “Cuando NO Cumple Políticas”, debe mostrarse únicamente cuando existe incumplimiento. El campo debe aparecer solo para los productos configurados (Aéreo, Hotel, Autos, Offline). Según tipo de usuario
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Validación de UDID desde la Hoja de Vida de la Reserva
+Contenido: Adicionalmente a la validación realizada en el formulario de reserva y en el PNR del GDS, es fundamental verificar la información de los UDID desde la Hoja de Vida de la reserva, ya que esta representa el registro interno y oficial de los datos almacenados por el sistema. La Hoja de Vida permite confirmar si el valor ingresado o generado por un UDID fue guardado correctamente en la plataforma, independientemente de si dicho valor fue finalmente documentado en el GDS. Importancia de la Hoja de Vida en la Validación Si un UDID se visualiza correctamente en la Hoja de Vida, significa que: El campo fue evaluado correctamente por el sistema. El valor fue capturado y almacenado de forma correcta en la base de datos.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Diferenciación entre Error de Sistema y Error de GDS
+Contenido: Es importante comprender que la ausencia de información en el PNR no siempre indica un error del sistema. Se presentan dos escenarios claramente diferenciables: Escenario 1: El UDID se visualiza en la Hoja de Vida, pero no en el PNR El sistema sí almacenó correctamente la información. La falla puede deberse a: El GDS no soporta alguno de los caracteres enviados en el valor del UDID. El Remark fue rechazado o truncado por el proveedor (GDS).
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Orden Correcto de Validación Técnica
+Contenido: Para evitar reprocesos y diagnósticos erróneos, se recomienda seguir siempre el siguiente orden: Formulario de Reserva: Verificar que el campo aparezca y permita ingresar o generar el valor esperado. Hoja de Vida de la Reserva: Confirmar que el UDID se encuentre registrado y visible en el detalle de la reserva. PNR en el GDS: Validar si el Remark fue documentado correctamente. Logs del Sistema: Solo cuando el dato esté en la Hoja de Vida, pero no en el PNR, se debe escalar el análisis a nivel de logs e integración con el GDS. Este orden garantiza una identificación clara del punto de falla y permite determinar si el incidente es:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Eventos Comunes en la Configuración de UDID y Soluciones
+Contenido: A continuación, se describen los eventos más frecuentes detectados durante la implementación o el uso de UDID, junto con su causa probable y la solución recomendada.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El campo UDID no aparece en el formulario de reserva
+Contenido: El grupo está Inactivo. El campo está Inactivo. El grupo o campo no aplica al tipo de reserva (Nacional / Internacional). El campo está configurado como NO VISIBLE. El campo está condicionado por política y no se cumple el escenario. Validar estado del grupo y del campo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El campo aparece, pero no permite guardar la reserva
+Contenido: El campo está configurado como Obligatorio. No se ha ingresado información válida. El tipo de dato no coincide con el valor ingresado. Ingresar un valor acorde al tipo de dato. Validar si realmente debe ser obligatorio. Ajustar el tipo de dato si es necesario.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: La lista de valores no se despliega
+Contenido: “Usar Lista” está configurado en No. No se seleccionó una lista. La lista o sus valores están Inactivos. Activar “Usar Lista”. Asociar correctamente la lista. Activar la lista y sus valores.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: La lista dependiente no muestra valores
+Contenido: El campo padre no fue seleccionado. Dependencia no configurada en ambos campos. El campo dependiente referencia un campo incorrecto. Seleccionar primero el campo padre. Activar dependencia en ambos campos. Corregir la referencia del campo dependiente.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El UDID se muestra, pero no se envía como Remark
+Contenido: No se configuró Remark. Tipo de Remark incorrecto. El campo se ingresó en la emisión y no en la reserva. Configurar correctamente el Remark. Validar tipo de Remark (General o Comando). Hay que confirmar que el campo se capture en la reserva.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El Remark se envía, pero la variable no se reemplaza
+Contenido: Error tipográfico en la variable. Uso incorrecto de rangos (1…9). Variable no aplica al contexto de la reserva. Validar el nombre exacto de la variable. Crear variables individuales por índice. Hay que confirmar que la variable tenga datos en la reserva.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El valor enviado en el Remark es incorrecto o vacío
+Contenido: El dato no existe en el perfil del pasajero o entidad. La variable no está disponible en ese punto del flujo. El campo se ejecuta antes de que el dato exista. Validar la información base (pasajero, entidad, centro de costo). Ajustar “Cuándo Ingresa” (reservar vs emitir). Confirmar el flujo de aprobación y momento de evaluación.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El campo aparece para usuarios incorrectos
+Contenido: Configuración incorrecta de “Quién Ingresa”. Herencia de UDID desde entidad padre no controlada. Ajustar el tipo de usuario permitido. Revisar parámetros de herencia de UDID.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: El UDID no aparece después de heredar configuración
+Contenido: Parámetros de herencia no configurados. Entidad origen incorrecta. Grupo inactivo en la entidad heredada. Validar parámetros HEREDARUDIDSPADRE y CDENTIDADHEREDAUDIDS. Confirmar estado del grupo y campos heredados.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: Manual de UDIDS (1)
+Sección: Preguntas frecuentes
+Contenido: Esta sección responde a las dudas más comunes sobre la terminología, la estructura y el funcionamiento de los udids. ¿Qué es un UDID y para qué se utiliza en KontrolTravel? Un UDID es un campo gerencial configurable que permite capturar, generar y documentar información adicional dentro de una reserva.Se utiliza para controlar datos internos del cliente, proyectos, centros de costo, viáticos, auditoría, facturación y documentación en los Remark del PNR. ¿Cuál es la diferencia entre un UDID abierto y un UDID oculto? UDID Abierto: Es visible en el formulario de reserva y el usuario ingresa manualmente la información. UDID Oculto (Variable de Reemplazo): No es visible para el usuario. Su valor se genera automáticamente a partir de datos del sistema y se documenta en el Remark.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/04_manual-de-udids-1.html
+
+Documento: REEMISIÓN RESERVAS
+Sección: Control de versiones.
+Contenido: Fecha | Autor | Revisado por | Aprobado por | Versión
+01/21 | Andrea Rivera | Mateo Arias |  | 0.1
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/05_reemisión-reservas.html
 
-Título: Configuración del markup por el gestor
-Tipo: DOCX
-Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de Markup por parte de la agencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema de Markup
+Documento: REEMISIÓN RESERVAS
+Sección: Introducción.
+Contenido: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias, se pone a disposición la funcionalidad de reemisión de reservas permite realizar modificaciones de fechas y/o rutas sobre reservas previamente emitidas. Esta funcionalidad permite ajustar uno o varios segmentos del itinerario original, manteniendo aquellos tramos que no requieren cambios y generando un nuevo itinerario conforme a las condiciones tarifarias y restricciones definidas por la aerolínea. El presente documento tiene como finalidad describir la manera clara el alcance de reemisión de reservas, así como detallar las consideraciones operativas y el flujo general del proceso para ejecutarlo correctamente desde el sistema. 1.Reemisión parcial de reservas La funcionalidad REEMISIÓN DE RESERVAS permite realizar modificaciones sobre una reserva previamente emitida. Estas modificaciones pueden incluir cambio de fechas de viaje y cambio de ruta siempre sujetas a las condiciones y políticas establecidas por el proveedor.Al finalizar el proceso, se genera un nuevo localizador interno (LOC) en Kontrol. El flujo de reemisión descrito a continuación esta disponible únicamente para
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/05_reemisión-reservas.html
+
+Documento: Configuración del markup por el gestor
+Sección: Control de versiones.
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+18/09/2023 | William Salazar | Manual de configuración de markup por el gestor. |  | 1.0
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
 
-Título: Configuración de Hoteles
-Tipo: DOCX
-Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de hoteles, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de hoteles
+Documento: Configuración del markup por el gestor
+Sección: Introducción.
+Contenido: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de Markup por parte de la agencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema de Markup, al tiempo que describimos los pasos a realizar. Como toda herramienta tecnológica el resultado satisfactorio de la adopción dependerá en gran parte del entendimiento que los usuarios tengan acerca del uso de la plataforma, logrando con esto tener claridad en los procesos y los alcances de la propia herramienta. Recomendamos leer muy detenidamente cada capítulo y al tiempo ir practicando los pasos que se describen en este instructivo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Documento: Configuración del markup por el gestor
+Sección: Generalidades de los Markup de hoteles.
+Contenido: El Markup configurado aplica solo para Hoteles (De proveedor (Hotelbeds, Omnibees, Hotusa, etc.) o propios). Los valores a cargar como Markup deben ser cargados como valores totales (valor + IVA). El sistema permite configurar Markup por: Markup por entidad: Indica que el valor del aplica para todos los proveedores de hoteles que tenga la entidad. Markup por proveedor:  Indica que el valor aplica para el proveedor que se configuró Markup por destino: Indica que el valor aplica para un destino seleccionado.
+Parámetros del sistema relacionados con markup de hoteles:
+Parámetro | Descripción | URL
+B2C2_CodigoMarkupHoteles | En este parámetro se selecciona el valor del Mark Up que se cobrará en los hoteles; aplica para todos los proveedores habilitados en la entidad, a excepción de Expedia que ya trae la comisión por hotel. | https://pacardenaz.github.io/parametros-manual/params/163_Código_Markup_Hoteles.html
+OCULTARMARKUPHOTELESRETRIEVE | Ocultar Markup en Retrieve de Hoteles. | https://pacardenaz.github.io/parametros-manual/params/184_Ocultar_Markup_en_Retrieve_de_Hoteles.html
+MOSTRARMARKUPHOTELES | Mostrar lista desplegable para que el usuario configure un mark up adicional en la búsqueda de hoteles. | https://pacardenaz.github.io/parametros-manual/params/198_Mostrar_lista_desplegable_para_configurar_el_mark_up_adicional.html
+MARKUPMINIMOHOTEL | Define el valor de porcentaje mínimo que se podrá elegir en la lista de markup adicional. Si se configura 5, la lista va de 5 a 25 valores (20 opciones). | https://pacardenaz.github.io/parametros-manual/params/199_Valor_minimo_de_Mark_up_en_lista_de_mark_up_adicional.html
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Documento: Configuración del markup por el gestor
+Sección: Ingreso al sistema.
+Contenido: Para ingresar al sistema se deben tener presentes los siguientes datos: Se ingresa a la OBT de Kontrol. Una vez ingresados en la OBT, se debe hacer clic en el menú Gestor. Al hacer clic en el menú Gestor se habilita otra ventana con la siguiente URL: https://gestion-obt.kontroltravel.com No todos los usuarios podrán ingresar a este modo solo los autorizados y configurados por personal autorizado de la agencia. Se debe ingresar a hacer ajustes en el tarifador web en la entidad principal de la agencia.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Documento: Configuración del markup por el gestor
+Sección: Formulario de configuración o creación de grupo FEE hoteles.
+Contenido: Al dar en la opción de FEE el sistema mostrara un formulario con 3 opciones en la parte superior derecha: Agregar: habilitara el formulario para crear un grupo Fee de hoteles (se utiliza para crear nuevos grupos FEE de hoteles). Guardar: permitirá guardar los datos después de registrados. Listar: dará la opción de visualizar los diferentes grupos FEE de hoteles cargados en las empresas (se utiliza cuando se buscará un FEE de hoteles para editar). Para crear un nuevo Grupo FEE de hoteles se debe dar clic en la opción “Agregar”, con esto se nos desplegará una ventana para agregar la información del nuevo Grupo FEE de hoteles. A continuación, damos una breve explicación de los campos más importantes de este formulario:
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Documento: Configuración del markup por el gestor
+Sección: Configuración de valores grupo FEE hoteles regla general.
+Contenido: Una vez creado el grupo FEE de hoteles se procede a configurar el valor del Markup de acuerdo a la regla que se configuro en la creación del Grupo FEE de hoteles. Para asignar los valores que se desea cobrar se debe hacer clic en el más del tab de Markup. Al hacer clic en el más se despliega el siguiente formulario A continuación, se explican brevemente los datos a ingresar: cuando se trata de la regla general. Descripción: En este campo se ingresa información que permita determinar para que entidad va a aplicar el Markup. Aplica para todas las reglas que se desean configurar. Geon Geon: No aplica en la configuración de esta regla, en el sistema ingresar -1 para que aplique para todos los destino.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/06_configuración-del-markup-por-el-gestor.html
+
+Documento: Configuración de Hoteles
+Sección: Control de versiones.
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+04-01-2024 | William Salazar | Configuración de Hoteles | Anderson Valencia | 0.1
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
 
-Título: Configuración de tarjetas de aisstencia.
-Tipo: DOCX
-Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de tarjetas de asistencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configura
+Documento: Configuración de Hoteles
+Sección: Introducción.
+Contenido: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de hoteles, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de hoteles, al tiempo que se describen los pasos para realizarla. Como toda herramienta tecnológica el resultado satisfactorio de la adopción dependerá en gran parte del entendimiento que los usuarios tengan acerca del uso de la plataforma, logrando con esto tener claridad en los procesos y los alcances de la propia herramienta.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
+Sección: Recomendamos leer muy detenidamente cada capítulo y al tiempo ir practicando los pasos que se describen en este instructivo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
+Sección: Generalidades sobre configuración de hoteles.
+Contenido: Los hoteles de proveedores configurados aplica de forma única y exclusiva para la agencia para la cual se configure. La información configurada debe corresponder a la determinado por la agencia para el proveedor. Se debe configurar la información para las diferentes que quieren que apliquen. La información que se muestre en la plataforma (hoteles, tarifas, acomodaciones, alimentación, etc.) es la que envié el proveedor. Es posible configurar un markup para los diferentes proveedores de hoteles; el cual debe ser definido por la agencia. Se debe configurar (por Ideas Fractal) los códigos con los cuales cada proveedor de hoteles identifica los diferentes destinos.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
+Sección: Ingreso al sistema.
+Contenido: Para ingresar al sistema se deben ingresar por la OBT y hacer clic en el botón de Gestor en el front https://ideas.kontroltravel.com/ No todos los usuarios podrán ingresar a este modo solo los autorizados y configurados por IF. El sistema calculará cual es la entidad principal de la agencia y en esta posiciona al usuario. Para ingresar al sistema se deben tener presentes los siguientes datos: https://gestion.kontroltravel.com
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
+Sección: Menú principal.
+Contenido: Cuando se ingrese al sistema el usuario podrá ver en la parte izquierda de la pantalla un menú de nombre configuración general que se despliega al dar clic en el nombre del mismo; desplegadas las opciones, el usuario debe ingresar a la opción de 0.Administrador IF, seguidamente en la opción de Entidad Cliente, luego Perfilar Cliente y por último Parámetros de configuración.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de Hoteles
+Sección: Parámetros de configuración de motor de búsqueda de hoteles.
+Contenido: Al hacer clic en la opción de Parámetros de Configuración se activa el siguiente formato Los botones de la parte superior derecha Guardar: permite guardar la información configurada. Listar: dará la opción de visualizar los diferentes entidades que pertenecen al árbol de la agencia para seleccionar en cuál de ellas se desea configurar hoteles. Al hacer clic en listar se despliega el siguiente formulario. En el campo nombre se emplea para filtrar la entidad en donde se va a realizar la configuración de los parámetros del motor de búsqueda de hoteles.
+Parámetros del sistema para configuración de hoteles:
+Parámetro | Descripción | URL
+MOSTRARLISTABROKERSBUSQHOTELES | Mostrar la lista de proveedores hoteleros en la búsqueda. | https://pacardenaz.github.io/parametros-manual/params/162_Mostrar_brokers_hoteles.html
+B2C2_CodigoMarkupHoteles | Selecciona el valor del Mark Up que se cobrará en los hoteles; aplica para todos los proveedores habilitados excepto Expedia. | https://pacardenaz.github.io/parametros-manual/params/163_Código_Markup_Hoteles.html
+MONEDAHOTELESNACIONALES | Define la moneda en que se desea que salgan los resultados de hoteles nacionales. | https://pacardenaz.github.io/parametros-manual/params/164_Moneda_hoteles_nacionales.html
+MONEDAHOTELESINTERNACIONALES | Define la moneda para hoteles internacionales. | https://pacardenaz.github.io/parametros-manual/params/165_Moneda_hoteles_internacionales.html
+CONVERTIRMONEDAHOTELESNACIONALES | Cambiar moneda de hoteles a la moneda local. | https://pacardenaz.github.io/parametros-manual/params/167_Cambiar_Moneda_de_Hoteles_a_la_moneda_Local.html
+MOSTRARHOTELBROKERRESULTADOS | Mostrar el broker en los resultados de hoteles. | https://pacardenaz.github.io/parametros-manual/params/168_Mostrar_broker_en_los_resultados_de_hoteles.html
+B2C2_OffsetFechaHoteles | Días a restringir en la búsqueda de hoteles. | https://pacardenaz.github.io/parametros-manual/params/169_Días_a_restringir_búsqueda_de_hoteles.html
+CANTIDADHOTELESPAGINA | Configura la cantidad de hoteles a visualizar por página. | https://pacardenaz.github.io/parametros-manual/params/170_Cantidad_de_hoteles_por_pagina.html
+USEOLDHOTELDESIGN | Tipo de vista para la plantilla de hoteles (diseño básico o nuevo diseño). | https://pacardenaz.github.io/parametros-manual/params/171_Tipo_Layout_para_Hotel.html
+HOTELSGDSDEFAULT | Marca la búsqueda GDS de hoteles como preferida (ej. hoteles Amadeus). | https://pacardenaz.github.io/parametros-manual/params/172_Hoteles_Amadeus_como_prioridad.html
+OCULTARMARKUPHOTELESRETRIEVE | Ocultar Markup en Retrieve de Hoteles. | https://pacardenaz.github.io/parametros-manual/params/184_Ocultar_Markup_en_Retrieve_de_Hoteles.html
+MOSTRARMARKUPHOTELES | Mostrar lista desplegable para configurar el mark up adicional. | https://pacardenaz.github.io/parametros-manual/params/198_Mostrar_lista_desplegable_para_configurar_el_mark_up_adicional.html
+MARKUPMINIMOHOTEL | Define el valor porcentual mínimo para la lista de markup adicional de hoteles. | https://pacardenaz.github.io/parametros-manual/params/199_Valor_minimo_de_Mark_up_en_lista_de_mark_up_adicional.html
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/07_configuración-de-hoteles.html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Control de versiones.
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+05-02-2026 | William Salazar | Configuración de tarjetas de asistencia |  | 0.1
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
 
-Título: Configuración de autos.
-Tipo: DOCX
-Descripción: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de autos, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de autos, al
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Introducción.
+Contenido: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de tarjetas de asistencia, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de tarjetas de asistencia, al tiempo que se describen los pasos para realizarla. Como toda herramienta tecnológica el resultado satisfactorio de la adopción dependerá en gran parte del entendimiento que los usuarios tengan acerca del uso de la plataforma, logrando con esto tener claridad en los procesos y los alcances de la propia herramienta.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Recomendamos leer muy detenidamente cada capítulo y al tiempo ir practicando los pasos que se describen en este instructivo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Generalidades sobre las políticas por destino.
+Contenido: Las tarjetas de asistencia de proveedores configurados aplica de forma única y exclusiva para la agencia para la cual se configure. La información configurada debe corresponder a la determinado por la agencia para el proveedor. Se debe configurar la información para las diferentes agencias que quieren que apliquen. La información que se muestre en la plataforma (tarjetas, tarifas, coberturas, etc.) es la que envié el proveedor. Es posible configurar un markup para los diferentes proveedores de tarjetas de asistencia; el cual debe ser definido por la agencia. Las consultas de tarjetas de asistencia en la plataforma se realizan por destino.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Ingreso al sistema.
+Contenido: Para ingresar al sistema se deben ingresar por la OBT y hacer clic en el botón de Gestor en el front https://ideas.kontroltravel.com/ No todos los usuarios podrán ingresar a este modo solo los autorizados y configurados por IF. El sistema calculará cual es la entidad principal de la agencia y en esta posiciona al usuario. Al hacer login se ingresa a la OBT; y se debe hacer clic sobre el botón que dice Gestor.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Menú principal.
+Contenido: Una vez ingresados al Gestor por la OBT, se hace clic en el menú 0-administrador IF; se despliega este menú; a continuación, se despliega el menú Entidad Cliente; posteriormente se selecciona Perfilar Cliente; finalmente se hace clic en Parámetros de Configuración.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Parámetros de configuración de motor de búsqueda de tarjetas de asistencia.
+Contenido: Al hacer clic en la opción de Parámetros de Configuración se activa el siguiente formato Los botones de la parte superior derecha Guardar: permite guardar la información configurada. Listar: dará la opción de visualizar los diferentes entidades que pertenecen al árbol de la agencia para seleccionar en cuál de ellas se desea configurar tarjetas de asistencia. Búsqueda Rápida: permite encontrar de forma mas clara y eficiente la entidad donde se van a configurar los parámetros empleando el código de la entidad donde se desea realizar la configuración. Al hacer clic en listar se despliega el siguiente formulario.
+ | MAXGROUPINSURANCEISSUED: se ingresa un valor numérico donde se indica cuanto es el máximo valor de seguros para emisión masiva. USASEGUROSPROPIOS: valida solo para Travel Security indica si emplea como proveedor seguros propios.B2C2_TieneSeguros: valido solo para B2C, se configura con S o N, para que muestre o no el motor de búsqueda de seguros en el front. B2C2_TieneSeguroViaje: valido para el B2C, se configura S o N, para habilitar el div de seguros en el formulario de reserva.B2C2_SeguroDiasAplica: aplica para los B2C, se configura un valor numérico que indica cuantos dí
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de tarjetas de aisstencia.
+Sección: Parámetros de configuración de pricing de tarjetas de asistencia.
+Contenido: Al hacer clic en la opción de Parámetros de Configuración se activa el siguiente formato Los botones de la parte superior derecha Guardar: permite guardar la información configurada. Listar: dará la opción de visualizar los diferentes entidades que pertenecen al árbol de la agencia para seleccionar en cuál de ellas se desea configurar tarjetas de asistencia. Búsqueda Rápida: permite encontrar de forma más clara y eficiente la entidad donde se van a configurar los parámetros empleando el código de la entidad donde se desea realizar la configuración. Al hacer clic en listar se despliega el siguiente formulario.
+ | SEGUROS_IDUSUARIO: se configura el código con el que se identifica el usuario de seguros Mapfre.SEGUROS_IDFILIADO: se configura el código que identifica al afiliado a seguros Mapfre
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/08_configuración-de-tarjetas-de-aisstencia..html
+
+Documento: Configuración de autos.
+Sección: Control de versiones.
+Contenido: FECHA | AUTOR | DESCRIPCION | REVISADO POR | VERSIÓN
+20-02-2026 | William Salazar | Configuración de autos |  | 0.1
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
 
-Título: SPLIT LATAM
-Tipo: DOCX
-Descripción: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias de viaje, se pone a disposición la funcionalidad de SPLIT de pasajeros para reservas LATAM vía NDC.
+Documento: Configuración de autos.
+Sección: Introducción.
+Contenido: Este documento pretende brindar una guía detallada acerca del uso de la herramienta y configuración de autos, en el presente se explica de forma gráfica y conceptual las funcionalidades con las que cuenta el sistema para la configuración de autos, al tiempo que se describen los pasos para realizarla. Como toda herramienta tecnológica el resultado satisfactorio de la adopción dependerá en gran parte del entendimiento que los usuarios tengan acerca del uso de la plataforma, logrando con esto tener claridad en los procesos y los alcances de la propia herramienta.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Recomendamos leer muy detenidamente cada capítulo y al tiempo ir practicando los pasos que se describen en este instructivo.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Generalidades sobre las políticas por destino.
+Contenido: Los autos de proveedores configurados aplican de forma única y exclusiva para la agencia para la cual se configure. La información configurada debe corresponder a lo determinado por el proveedor para la agencia. Se debe configurar la información para las diferentes agencias que quieren que apliquen. La información que se muestre en la plataforma (tipos de autos, tarifas, coberturas, etc.) es la que envié el proveedor y corresponde a la que se configure para la agencia. Es responsabilidad de la agencia revisar que en la OBT se muestre lo negociado con el proveedor para ellas. Las consultas de autos en la plataforma se realizan por destino.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Ingreso al sistema.
+Contenido: Para ingresar al sistema se deben ingresar por la OBT y hacer clic en el botón de Gestor en el front https://ideas.kontroltravel.com/ No todos los usuarios podrán ingresar a este modo solo los autorizados y configurados por IF. El sistema calculará cual es la entidad principal de la agencia y en esta posiciona al usuario. Al hacer login se ingresa a la OBT; y se debe hacer clic sobre el botón que dice Gestor.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Menú principal.
+Contenido: Una vez ingresados al Gestor por la OBT, se hace clic en el menú 0-administrador IF; se despliega este menú; a continuación, se despliega el menú Entidad Cliente; posteriormente se selecciona Perfilar Cliente; finalmente se hace clic en Parámetros de Configuración.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Parámetros de configuración de motor de búsqueda de Autos
+Contenido: Al hacer clic en la opción de Parámetros de Configuración se activa el siguiente formato Los botones de la parte superior derecha Guardar: permite guardar la información configurada. Listar: dará la opción de visualizar los diferentes entidades que pertenecen al árbol de la agencia para seleccionar en cuál de ellas se desea configurar autos. Búsqueda Rápida: permite encontrar de forma mas clara y eficiente la entidad donde se van a configurar los parámetros empleando el código de la entidad donde se desea realizar la configuración. Al hacer clic en listar se despliega el siguiente formulario.
+Parámetros del sistema para configuración de autos:
+Parámetro | Descripción | URL
+VISUALIZALOCALESAUTOS | Habilitar las listas desplegables de lugares rentadoras. | https://pacardenaz.github.io/parametros-manual/params/001_Habilitar_las_listas_desplegables_de_lugares_rentadoras.html
+VISUALIZACODIGOSDESCUENTOAUTOS | Visualiza códigos de descuentos en autos. | https://pacardenaz.github.io/parametros-manual/params/002_Visualiza_codigos_de_descuentos_en_autos.html
+VISUALIZAEQUIPAMENTOESPECIALAUTOS | Visualizar pedidos especiales en autos. | https://pacardenaz.github.io/parametros-manual/params/003_Visualizar_pedidos_especiales_en_autos.html
+VISUALIZALISTACOMPLETATIPOSAUTOS | Visualiza los tipos de autos en el buscador. | https://pacardenaz.github.io/parametros-manual/params/004_Visualiza_los_tipos_de_autos_en_el_buscador_de_autos.html
+RESERVAONHOLDAUTOS | Reservas de autos en On-Hold (AgentCars). | https://pacardenaz.github.io/parametros-manual/params/005_Reservas_de_autos_en_On-Hold_(AgentCars).html
+USECARSMAPS | Usa funcionalidad de mapas en el buscador de autos. | https://pacardenaz.github.io/parametros-manual/params/006_Usa_funcionalidad_de_mapas_en_el_buscador_de_autos.html
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: Configuración de autos.
+Sección: Parámetros de configuración de pricing de Autos.
+Contenido: Al hacer clic en la opción de Parámetros de Configuración se activa el siguiente formato Los botones de la parte superior derecha Guardar: permite guardar la información configurada. Listar: dará la opción de visualizar los diferentes entidades que pertenecen al árbol de la agencia para seleccionar en cuál de ellas se desea configurar autos. Búsqueda Rápida: permite encontrar de forma más clara y eficiente la entidad donde se van a configurar los parámetros empleando el código de la entidad donde se desea realizar la configuración. Al hacer clic en listar se despliega el siguiente formulario.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/09_configuración-de-autos..html
+
+Documento: SPLIT LATAM
+Sección: Control de versiones.
+Contenido: Fecha | Autor | Revisado por | Aprobado por | Versión
+19/01 | Andrea Rivera | Mateo Arias | Mateo Arias | 0.1
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+
+Documento: SPLIT LATAM
+Sección: Introducción.
+Contenido: Con el objetivo de optimizar la gestión de reservas y brindar mayor flexibilidad operativa a las agencias de viaje, se pone a disposición la funcionalidad de SPLIT de pasajeros para reservas LATAM vía NDC. Esta funcionalidad permite dividir pasajeros pertenecientes a una reserva ya emitida, generando los registros, órdenes y documentos correspondientes para cada nueva reserva resultante, siempre en cumplimiento de las políticas y restricciones definidas por el proveedor. El presente documento tiene como finalidad describir el alcance de la funcionalidad de SPLIT, así como detallar las consideraciones operativas que deben evaluarse previo a su utilización y los permisos de usuario requeridos para acceder y ejecutar este proceso correctamente.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+
+Documento: SPLIT LATAM
+Sección: Funcionalidad SPLIT
+Contenido: La funcionalidad SPLIT LATAM permite dividir uno o más pasajeros de una reserva ya emitida, generando una nueva orden y un nuevo localizador interno (LOC) en Kontrol, asociado al registro creado a partir del SPLIT realizado. Una vez emitida la reserva, se podrá realizar este Split seleccionando la opción “Dividir PNR”. El sistema desplegara una nueva ventana en la que se visualizarán los nombres de todos los pasajeros asociados a la reserva. Desde esta ventana, la agencia deberá seleccionar los pasajeros que desea dividir de la reserva original para continuar con el proceso.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+
+Documento: SPLIT LATAM
+Sección: Consideraciones importantes antes de realizar un SPLIT
+Contenido: El SPLIT no es reversible Una vez realizada la división, no es posible anular la nueva orden generada desde el sistema. Si la agencia requiere la anulación de los tiquetes divididos (nueva orden), deberá gestionarse directamente con LATAM. Consideraciones operativas Teniendo en cuenta el anterior punto, en escenarios donde una reserva inicial contiene uno o más pasajeros, y posteriormente se identifica que solo alguno de ellos realizara el viaje, mientras que otros deben ser cancelados se recomienda aplicar el siguiente procedimiento: Ejecutar el Split (nueva orden) de los pasajeros que, si van a realizar el viaje, de manera que estos queden asociados a nuevos localizadores y a nuevas reservas. Mantener en la reserva original a los pasajeros que no realizarán el viaje, con el fin de que su cancelación pueda efectuarse directamente desde la herramienta, sin necesidad de gestionar el proceso con LATAM.
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+
+Documento: SPLIT LATAM
+Sección: Permisos necesarios para que el usuario pueda realizar SPLIT
+Contenido: Para que un usuario pueda realizar la división de reservas, es necesario contar con el permiso correspondiente configurado en el sistema. Ingresar al módulo “Admin Backend / Usuarios / Lista de Usuarios” Buscar y seleccionar al usuario al cual se le desea habilitar el permiso. Desplazarse hasta la parte final del perfil del usuario hasta ubicar la sección “Permisos”. Dentro de la categoría “administrador”, identificar el permiso denominado “permite hacer SPLIT”, el cual deberá ser activado para que el usuario pueda realizar la división de reservas. Una vez realizada la configuración “Guardar” los cambios para que aplique correctamente
+URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
+
+Documento: SPLIT LATAM
+Sección: Configuración para ocultar la opción “dividir pnr” en usuario tipo cliente.
+Contenido: Para los usuarios con perfil tipo cliente, el sistema cuenta con una configuración adicional que permite ocultar el botón de “Dividir PNR”, en caso de que la agencia requiera restringir el uso de esta funcionalidad. Esta configuración se realiza a nivel de entidad mediante un parámetro del sistema, el cual permite controlar la visualización del botón Split para este tipo de usuarios. Para realizar la configuración se deben seguir los siguientes pasos: Ingresar al módulo "2 – Admin Backend/configuración parámetros/parámetros Activos". Buscar y seleccionar la entidad a la cual se le desea habilitar el permiso Configurar el siguiente parámetro: -PARÁMETRO: OCULTARSPLITCLIENTE -DESCRIPCIÓN: Ocultar botón de Split PNR para usuarios tipo cliente-VALORES POSIBLES: S (Sí oculta el botón)
 URL documentación: https://pacardenaz.github.io/parametros-manual/docs/10_split-latam.html
 
